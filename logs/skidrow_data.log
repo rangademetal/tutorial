@@ -1,0 +1,3251 @@
+2023-01-24 12:00:08,626 Scrapy 2.7.1 started (bot: scrapy_skidrow)
+2023-01-24 12:00:08,627 Versions: lxml 4.9.2.0, libxml2 2.9.14, cssselect 1.2.0, parsel 1.7.0, w3lib 2.1.1, Twisted 22.10.0, Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0], pyOpenSSL 23.0.0 (OpenSSL 3.0.7 1 Nov 2022), cryptography 39.0.0, Platform Linux-5.15.0-41-generic-x86_64-with-glibc2.35
+2023-01-24 12:00:08,630 Overridden settings:
+{'BOT_NAME': 'scrapy_skidrow',
+ 'NEWSPIDER_MODULE': 'scrapy_skidrow.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scrapy_skidrow.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2023-01-24 12:00:08,632 Using selector: EpollSelector
+2023-01-24 12:00:08,632 Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-01-24 12:00:08,632 Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2023-01-24 12:00:08,645 Telnet Password: 10881bb3ea67f6a7
+2023-01-24 12:00:08,661 Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2023-01-24 12:00:08,774 Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-01-24 12:00:08,776 Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-01-24 12:00:08,777 Enabled item pipelines:
+[]
+2023-01-24 12:00:08,778 Spider opened
+2023-01-24 12:00:08,864 Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-01-24 12:00:08,865 /home/sad/PycharmProject/rest/venv/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py:71: URLWarning: allowed_domains accepts only domains, not URLs. Ignoring URL entry https://www.skidrowreloaded.com/pc/ in allowed_domains.
+  warnings.warn(message, URLWarning)
+
+2023-01-24 12:00:08,867 Telnet console listening on 127.0.0.1:6030
+2023-01-24 12:00:09,032 Crawled (200) <GET https://www.skidrowreloaded.com/robots.txt> (referer: None)
+2023-01-24 12:00:09,116 Crawled (200) <GET https://www.skidrowreloaded.com/pc/> (referer: None)
+2023-01-24 12:00:09,228 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '1',
+ 'link': 'https://www.skidrowreloaded.com/tangledeep-v1-53k/',
+ 'name': 'Tangledeep v1.53k'}
+2023-01-24 12:00:09,229 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '2',
+ 'link': 'https://www.skidrowreloaded.com/sylphy-and-the-sleepless-island-gog/',
+ 'name': 'Sylphy and the Sleepless Island-GOG'}
+2023-01-24 12:00:09,231 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '3',
+ 'link': 'https://www.skidrowreloaded.com/seven-spirits-build-10367501-repack/',
+ 'name': 'Seven Spirits Build 10367501-Repack'}
+2023-01-24 12:00:09,233 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '4',
+ 'link': 'https://www.skidrowreloaded.com/gross-v20230117/',
+ 'name': 'GROSS v20230117'}
+2023-01-24 12:00:09,234 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '5',
+ 'link': 'https://www.skidrowreloaded.com/motor-town-v0-6-15-1/',
+ 'name': 'Motor Town v0.6.15.1'}
+2023-01-24 12:00:09,235 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '6',
+ 'link': 'https://www.skidrowreloaded.com/doraemon-story-of-seasons-fotgk-build-20230118/',
+ 'name': 'DORAEMON STORY OF SEASONS FotGK Build 20230118'}
+2023-01-24 12:00:09,237 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '7',
+ 'link': 'https://www.skidrowreloaded.com/kingdom-two-crowns-v1-1-18/',
+ 'name': 'Kingdom Two Crowns v1.1.18'}
+2023-01-24 12:00:09,239 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '8',
+ 'link': 'https://www.skidrowreloaded.com/apostle-gog/',
+ 'name': 'Apostle-GOG'}
+2023-01-24 12:00:09,240 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '9',
+ 'link': 'https://www.skidrowreloaded.com/7-girls-war-gog/',
+ 'name': '7 Girls War-GOG'}
+2023-01-24 12:00:09,242 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '10',
+ 'link': 'https://www.skidrowreloaded.com/zombie-cure-lab-v0-17-3/',
+ 'name': 'Zombie Cure Lab v0.17.3'}
+2023-01-24 12:00:09,243 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '11',
+ 'link': 'https://www.skidrowreloaded.com/underdungeon-v1-1-hotfix-2/',
+ 'name': 'UnderDungeon v1.1.HotFix.2'}
+2023-01-24 12:00:09,245 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '12',
+ 'link': 'https://www.skidrowreloaded.com/terraformers-v0-9-52/',
+ 'name': 'Terraformers v0.9.52'}
+2023-01-24 12:00:09,246 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '13',
+ 'link': 'https://www.skidrowreloaded.com/punch-a-bunch-v20230122/',
+ 'name': 'Punch A Bunch v20230122'}
+2023-01-24 12:00:09,247 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '14',
+ 'link': 'https://www.skidrowreloaded.com/obscurite-magie-the-city-of-sin-gog/',
+ 'name': 'Obscurite Magie The City of Sin-GOG'}
+2023-01-24 12:00:09,249 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '15',
+ 'link': 'https://www.skidrowreloaded.com/magical-valkyrie-lyristia-gog/',
+ 'name': 'Magical Valkyrie Lyristia-GOG'}
+2023-01-24 12:00:09,250 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '16',
+ 'link': 'https://www.skidrowreloaded.com/intravenous-v1-4-0-3-gog/',
+ 'name': 'Intravenous v1.4.0.3-GOG'}
+2023-01-24 12:00:09,252 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '17',
+ 'link': 'https://www.skidrowreloaded.com/grand-cross-renovation-v1-20g/',
+ 'name': 'GRAND CROSS ReNOVATION v1.20g'}
+2023-01-24 12:00:09,254 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '18',
+ 'link': 'https://www.skidrowreloaded.com/evening-starter-gog/',
+ 'name': 'Evening Starter-GOG'}
+2023-01-24 12:00:09,256 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '19',
+ 'link': 'https://www.skidrowreloaded.com/dwerve-v1-1-6/',
+ 'name': 'Dwerve v1.1.6'}
+2023-01-24 12:00:09,257 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '20',
+ 'link': 'https://www.skidrowreloaded.com/coralina-v20230121/',
+ 'name': 'Coralina v20230121'}
+2023-01-24 12:00:09,258 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '21',
+ 'link': 'https://www.skidrowreloaded.com/castle-cardians-v0-170001/',
+ 'name': 'Castle Cardians v0.170001'}
+2023-01-24 12:00:09,259 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '22',
+ 'link': 'https://www.skidrowreloaded.com/ariels-daily-grind-gog/',
+ 'name': 'Ariels Daily Grind-GOG'}
+2023-01-24 12:00:09,261 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '23',
+ 'link': 'https://www.skidrowreloaded.com/undead-horde-2-necropolis-v0-9-1-15/',
+ 'name': 'Undead Horde 2 Necropolis v0.9.1.15'}
+2023-01-24 12:00:09,263 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '24',
+ 'link': 'https://www.skidrowreloaded.com/the-crackpet-show-v1-1-4/',
+ 'name': 'The Crackpet Show v1.1.4'}
+2023-01-24 12:00:09,264 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '25',
+ 'link': 'https://www.skidrowreloaded.com/tfm-the-first-men-v0-6-0/',
+ 'name': 'TFM The First Men v0.6.0'}
+2023-01-24 12:00:09,266 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '26',
+ 'link': 'https://www.skidrowreloaded.com/terraforming-mars-v2-0000-1-12595-gog/',
+ 'name': 'Terraforming Mars v2.0000.1.12595-GOG'}
+2023-01-24 12:00:09,268 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '27',
+ 'link': 'https://www.skidrowreloaded.com/terraforming-mars-v2-0-1/',
+ 'name': 'Terraforming Mars v2.0.1'}
+2023-01-24 12:00:09,269 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '28',
+ 'link': 'https://www.skidrowreloaded.com/survivalist-v74/',
+ 'name': 'Survivalist v74'}
+2023-01-24 12:00:09,271 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '29',
+ 'link': 'https://www.skidrowreloaded.com/stormworks-build-and-rescue-v1-6-12/',
+ 'name': 'Stormworks Build and Rescue v1.6.12'}
+2023-01-24 12:00:09,272 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '30',
+ 'link': 'https://www.skidrowreloaded.com/shotgun-king-the-final-checkmate-v1-37/',
+ 'name': 'Shotgun King The Final Checkmate v1.37'}
+2023-01-24 12:00:09,274 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '31',
+ 'link': 'https://www.skidrowreloaded.com/ruinarch-v0-13/',
+ 'name': 'Ruinarch v0.13'}
+2023-01-24 12:00:09,276 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '32',
+ 'link': 'https://www.skidrowreloaded.com/revita-v1-0-4/',
+ 'name': 'Revita v1.0.4'}
+2023-01-24 12:00:09,278 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '33',
+ 'link': 'https://www.skidrowreloaded.com/punch-a-bunch-repack/',
+ 'name': 'Punch A Bunch-Repack'}
+2023-01-24 12:00:09,280 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '34',
+ 'link': 'https://www.skidrowreloaded.com/planet-centauri-v0-13-8b/',
+ 'name': 'Planet Centauri v0.13.8b'}
+2023-01-24 12:00:09,281 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '35',
+ 'link': 'https://www.skidrowreloaded.com/people-playground-build-20230122/',
+ 'name': 'People Playground Build 20230122'}
+2023-01-24 12:00:09,283 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '36',
+ 'link': 'https://www.skidrowreloaded.com/paleon-alpha-v1-15-2/',
+ 'name': 'Paleon Alpha v1.15.2'}
+2023-01-24 12:00:09,284 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '37',
+ 'link': 'https://www.skidrowreloaded.com/midnights-of-desperado-v1-9-4/',
+ 'name': 'MidNights of Desperado v1.9.4'}
+2023-01-24 12:00:09,285 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '38',
+ 'link': 'https://www.skidrowreloaded.com/mad-games-tycoon-2-v2023-01-23b/',
+ 'name': 'Mad Games Tycoon 2 v2023.01.23b'}
+2023-01-24 12:00:09,287 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '39',
+ 'link': 'https://www.skidrowreloaded.com/luck-be-a-landlord-v1-0-23/',
+ 'name': 'Luck be a Landlord v1.0.23'}
+2023-01-24 12:00:09,289 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '40',
+ 'link': 'https://www.skidrowreloaded.com/last-wood-v1-0-0f9/',
+ 'name': 'Last Wood v1.0.0f9'}
+2023-01-24 12:00:09,290 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '41',
+ 'link': 'https://www.skidrowreloaded.com/juno-new-origins-v1-02/',
+ 'name': 'Juno New Origins v1.02'}
+2023-01-24 12:00:09,293 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '42',
+ 'link': 'https://www.skidrowreloaded.com/increlution-build-20230120/',
+ 'name': 'Increlution Build 20230120'}
+2023-01-24 12:00:09,294 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '43',
+ 'link': 'https://www.skidrowreloaded.com/haiku-the-robot-v1-1-4/',
+ 'name': 'Haiku the Robot v1.1.4'}
+2023-01-24 12:00:09,297 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '44',
+ 'link': 'https://www.skidrowreloaded.com/fireworks-mania-v2023-1-2/',
+ 'name': 'Fireworks Mania v2023.1.2'}
+2023-01-24 12:00:09,298 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '45',
+ 'link': 'https://www.skidrowreloaded.com/equilinox-v1-7-2/',
+ 'name': 'Equilinox v1.7.2'}
+2023-01-24 12:00:09,300 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '46',
+ 'link': 'https://www.skidrowreloaded.com/colt-canyon-v1-2-1-3/',
+ 'name': 'Colt Canyon v1.2.1.3'}
+2023-01-24 12:00:09,303 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '47',
+ 'link': 'https://www.skidrowreloaded.com/boneraiser-minions-v23-1/',
+ 'name': 'Boneraiser Minions v23.1'}
+2023-01-24 12:00:09,306 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '48',
+ 'link': 'https://www.skidrowreloaded.com/birth-of-shadows-v1-9-10-12/',
+ 'name': 'Birth of Shadows v1.9.10.12'}
+2023-01-24 12:00:09,309 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '49',
+ 'link': 'https://www.skidrowreloaded.com/airships-conquer-the-skies-v1-1-2-1-gog/',
+ 'name': 'Airships Conquer the Skies v1.1.2.1-GOG'}
+2023-01-24 12:00:09,310 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '50',
+ 'link': 'https://www.skidrowreloaded.com/airships-conquer-the-skies-v1-1-2-1/',
+ 'name': 'Airships Conquer the Skies v1.1.2.1'}
+2023-01-24 12:00:09,311 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '51',
+ 'link': 'https://www.skidrowreloaded.com/a-space-for-the-unbound-deluxe-edition-repack/',
+ 'name': 'A Space for the Unbound Deluxe Edition-Repack'}
+2023-01-24 12:00:09,313 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '52',
+ 'link': 'https://www.skidrowreloaded.com/the-forgotten-tapes-analog-nightmares-tenoke/',
+ 'name': 'The Forgotten Tapes Analog Nightmares-TENOKE'}
+2023-01-24 12:00:09,314 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '53',
+ 'link': 'https://www.skidrowreloaded.com/sapper-defuse-the-bomb-simulator-tenoke/',
+ 'name': 'Sapper Defuse The Bomb Simulator-TENOKE'}
+2023-01-24 12:00:09,315 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '54',
+ 'link': 'https://www.skidrowreloaded.com/asfalia-anger-tenoke/',
+ 'name': 'Asfalia Anger-TENOKE'}
+2023-01-24 12:00:09,316 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '55',
+ 'link': 'https://www.skidrowreloaded.com/deep-in-the-snowy-night-tenoke/',
+ 'name': 'Deep In The Snowy Night-TENOKE'}
+2023-01-24 12:00:09,318 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '56',
+ 'link': 'https://www.skidrowreloaded.com/colossal-cave-tenoke/',
+ 'name': 'Colossal Cave-TENOKE'}
+2023-01-24 12:00:09,320 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '57',
+ 'link': 'https://www.skidrowreloaded.com/project-warlock-claymore-goldberg/',
+ 'name': 'Project Warlock Claymore-GoldBerg'}
+2023-01-24 12:00:09,322 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '58',
+ 'link': 'https://www.skidrowreloaded.com/dead-by-daylight-ultimate-edition-v4-4-2-0xdeadc0de/',
+ 'name': 'Dead by Daylight Ultimate Edition v4.4.2-0xdeadc0de'}
+2023-01-24 12:00:09,324 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '59',
+ 'link': 'https://www.skidrowreloaded.com/warno-oudinot-early-access/',
+ 'name': 'WARNO OUDINOT Early Access'}
+2023-01-24 12:00:09,326 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '60',
+ 'link': 'https://www.skidrowreloaded.com/siege-survival-gloria-victis-v20230119-p2p/',
+ 'name': 'Siege Survival Gloria Victis v20230119-P2P'}
+2023-01-24 12:00:09,328 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '61',
+ 'link': 'https://www.skidrowreloaded.com/jianghu-survivors-early-access/',
+ 'name': 'Jianghu Survivors Early Access'}
+2023-01-24 12:00:09,330 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '62',
+ 'link': 'https://www.skidrowreloaded.com/commonhood-v1-1-1-6-goldberg/',
+ 'name': 'Commonhood v1.1.1.6-GoldBerg'}
+2023-01-24 12:00:09,332 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '63',
+ 'link': 'https://www.skidrowreloaded.com/aquatico-v1-003-4-goldberg/',
+ 'name': 'Aquatico v1.003.4-GoldBerg'}
+2023-01-24 12:00:09,334 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '64',
+ 'link': 'https://www.skidrowreloaded.com/kingdom-two-crowns-lost-islands-goldberg/',
+ 'name': 'Kingdom Two Crowns Lost Islands-GoldBerg'}
+2023-01-24 12:00:09,335 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '65',
+ 'link': 'https://www.skidrowreloaded.com/acolony-early-access/',
+ 'name': 'AColony Early Access'}
+2023-01-24 12:00:09,337 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '66',
+ 'link': 'https://www.skidrowreloaded.com/voxel-tycoon-passengers-2-0-early-access/',
+ 'name': 'Voxel Tycoon Passengers 2.0 Early Access'}
+2023-01-24 12:00:09,339 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '67',
+ 'link': 'https://www.skidrowreloaded.com/flotsam-the-botanist-early-access/',
+ 'name': 'Flotsam The Botanist Early Access'}
+2023-01-24 12:00:09,341 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '68',
+ 'link': 'https://www.skidrowreloaded.com/green-hell-v2-4-0-p2p/',
+ 'name': 'Green Hell v2.4.0-P2P'}
+2023-01-24 12:00:09,343 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '69',
+ 'link': 'https://www.skidrowreloaded.com/ultimate-fishing-simulator-2-build-10270602/',
+ 'name': 'Ultimate Fishing Simulator 2 Build 10270602'}
+2023-01-24 12:00:09,344 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '70',
+ 'link': 'https://www.skidrowreloaded.com/sid-meiers-civilization-vi-platinum-edition-v1-0-12-31-repack/',
+ 'name': 'Sid Meiers Civilization VI Platinum Edition v1.0.12.31-Repack'}
+2023-01-24 12:00:09,346 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '71',
+ 'link': 'https://www.skidrowreloaded.com/escape-the-backrooms-v22-01-2023/',
+ 'name': 'Escape the Backrooms v22.01.2023'}
+2023-01-24 12:00:09,348 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '72',
+ 'link': 'https://www.skidrowreloaded.com/automation-the-car-company-tycoon-game-build-10287257/',
+ 'name': 'Automation The Car Company Tycoon Game Build 10287257'}
+2023-01-24 12:00:09,349 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '73',
+ 'link': 'https://www.skidrowreloaded.com/sbox-build-10376186/',
+ 'name': 'S&Box Build 10376186'}
+2023-01-24 12:00:09,351 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '74',
+ 'link': 'https://www.skidrowreloaded.com/deadstep-build-9748602/',
+ 'name': 'Deadstep Build 9748602'}
+2023-01-24 12:00:09,352 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '75',
+ 'link': 'https://www.skidrowreloaded.com/hellish-quart-v0-3061/',
+ 'name': 'Hellish Quart v0.3061'}
+2023-01-24 12:00:09,354 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '76',
+ 'link': 'https://www.skidrowreloaded.com/overdrift-festival-build-10326827/',
+ 'name': 'OverDrift Festival Build 10326827'}
+2023-01-24 12:00:09,355 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '77',
+ 'link': 'https://www.skidrowreloaded.com/element-td-2-build-10256873/',
+ 'name': 'Element TD 2 Build 10256873'}
+2023-01-24 12:00:09,356 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '78',
+ 'link': 'https://www.skidrowreloaded.com/cygnus-enterprises-build-10348314/',
+ 'name': 'Cygnus Enterprises Build 10348314'}
+2023-01-24 12:00:09,357 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '79',
+ 'link': 'https://www.skidrowreloaded.com/ultimate-fishing-simulator-build-10326742/',
+ 'name': 'Ultimate Fishing Simulator Build 10326742'}
+2023-01-24 12:00:09,359 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '80',
+ 'link': 'https://www.skidrowreloaded.com/the-pathless-build-7169615/',
+ 'name': 'The Pathless Build 7169615'}
+2023-01-24 12:00:09,360 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '81',
+ 'link': 'https://www.skidrowreloaded.com/the-drone-racing-league-simulator-build-8906714/',
+ 'name': 'The Drone Racing League Simulator Build 8906714'}
+2023-01-24 12:00:09,362 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '82',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-build-10375941/',
+ 'name': 'Rain World Build 10375941'}
+2023-01-24 12:00:09,363 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '83',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-v1-9-02/',
+ 'name': 'Rain World v1.9.02'}
+2023-01-24 12:00:09,365 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '84',
+ 'link': 'https://www.skidrowreloaded.com/project-gunship-v1-0-0-5/',
+ 'name': 'Project Gunship v1.0.0.5'}
+2023-01-24 12:00:09,366 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '85',
+ 'link': 'https://www.skidrowreloaded.com/avernus-repack/',
+ 'name': 'Avernus-Repack'}
+2023-01-24 12:00:09,368 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '86',
+ 'link': 'https://www.skidrowreloaded.com/sailing-era-v20230123-p2p/',
+ 'name': 'Sailing Era v20230123-P2P'}
+2023-01-24 12:00:09,371 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '87',
+ 'link': 'https://www.skidrowreloaded.com/the-bad-kids-v20230123-p2p/',
+ 'name': 'The Bad Kids v20230123-P2P'}
+2023-01-24 12:00:09,372 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '88',
+ 'link': 'https://www.skidrowreloaded.com/september-7th-v20230122-p2p/',
+ 'name': 'September 7th v20230122-P2P'}
+2023-01-24 12:00:09,374 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '89',
+ 'link': 'https://www.skidrowreloaded.com/farmers-life-v0-8-51/',
+ 'name': 'Farmers Life v0.8.51'}
+2023-01-24 12:00:09,375 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '90',
+ 'link': 'https://www.skidrowreloaded.com/project-zomboid-build10105824/',
+ 'name': 'Project Zomboid Build 10105824'}
+2023-01-24 12:00:09,376 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '91',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-world-downpour-repack/',
+ 'name': 'Rain World World Downpour-Repack'}
+2023-01-24 12:00:09,378 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '92',
+ 'link': 'https://www.skidrowreloaded.com/astro-colony-build-10374704/',
+ 'name': 'Astro Colony Build 10374704'}
+2023-01-24 12:00:09,379 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '93',
+ 'link': 'https://www.skidrowreloaded.com/against-the-storm-v0-42-2r-gog/',
+ 'name': 'Against the Storm v0.42.2r-GOG'}
+2023-01-24 12:00:09,380 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '94',
+ 'link': 'https://www.skidrowreloaded.com/ultimate-admiral-dreadnoughts-v1-1/',
+ 'name': 'Ultimate Admiral Dreadnoughts v1.1'}
+2023-01-24 12:00:09,382 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '95',
+ 'link': 'https://www.skidrowreloaded.com/trials-of-wilderness-v4-9-3/',
+ 'name': 'Trials of Wilderness v4.9.3'}
+2023-01-24 12:00:09,383 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '96',
+ 'link': 'https://www.skidrowreloaded.com/surviving-the-abyss-v0-1-4-3/',
+ 'name': 'Surviving the Abyss v0.1.4.3'}
+2023-01-24 12:00:09,385 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '97',
+ 'link': 'https://www.skidrowreloaded.com/retrowave-build-10376251/',
+ 'name': 'Retrowave Build 10376251'}
+2023-01-24 12:00:09,386 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '98',
+ 'link': 'https://www.skidrowreloaded.com/queens-glory-build-6510838/',
+ 'name': 'Queens Glory Build 6510838'}
+2023-01-24 12:00:09,389 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '99',
+ 'link': 'https://www.skidrowreloaded.com/kingdoms-reborn-build-10365821/',
+ 'name': 'Kingdoms Reborn Build 10365821'}
+2023-01-24 12:00:09,390 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '100',
+ 'link': 'https://www.skidrowreloaded.com/goal-the-club-manager-v0-18-19-135/',
+ 'name': 'GOAL The Club Manager v0.18.19.135'}
+2023-01-24 12:00:09,393 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '101',
+ 'link': 'https://www.skidrowreloaded.com/football-tactics-and-glory-build-10233306/',
+ 'name': 'Football Tactics and Glory Build 10233306'}
+2023-01-24 12:00:09,395 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '102',
+ 'link': 'https://www.skidrowreloaded.com/dont-starve-together-v539293/',
+ 'name': 'Dont Starve Together v539293'}
+2023-01-24 12:00:09,396 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '103',
+ 'link': 'https://www.skidrowreloaded.com/auto-age-standoff-build-9123150/',
+ 'name': 'Auto Age Standoff Build 9123150'}
+2023-01-24 12:00:09,397 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '104',
+ 'link': 'https://www.skidrowreloaded.com/armello-build-10109492/',
+ 'name': 'Armello Build 10109492'}
+2023-01-24 12:00:09,399 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '105',
+ 'link': 'https://www.skidrowreloaded.com/supermash-build-6081294/',
+ 'name': 'SuperMash Build 6081294'}
+2023-01-24 12:00:09,401 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '106',
+ 'link': 'https://www.skidrowreloaded.com/lawless-west-build-10377313/',
+ 'name': 'Lawless West Build 10377313'}
+2023-01-24 12:00:09,403 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '107',
+ 'link': 'https://www.skidrowreloaded.com/landlords-super-build-10307679/',
+ 'name': 'Landlords Super Build 10307679'}
+2023-01-24 12:00:09,405 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '108',
+ 'link': 'https://www.skidrowreloaded.com/intravenous-v1-4-0-3/',
+ 'name': 'Intravenous v1.4.0.3'}
+2023-01-24 12:00:09,407 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '109',
+ 'link': 'https://www.skidrowreloaded.com/dream-engines-nomad-cities-v0-11-478/',
+ 'name': 'Dream Engines Nomad Cities v0.11.478'}
+2023-01-24 12:00:09,410 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '110',
+ 'link': 'https://www.skidrowreloaded.com/september-7th-v20230121-p2p/',
+ 'name': 'September 7th v20230121-P2P'}
+2023-01-24 12:00:09,411 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '111',
+ 'link': 'https://www.skidrowreloaded.com/the-secret-ops-tenoke/',
+ 'name': 'The Secret Ops-TENOKE'}
+2023-01-24 12:00:09,412 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '112',
+ 'link': 'https://www.skidrowreloaded.com/dome-keeper-v1-4-1-gog/',
+ 'name': 'Dome Keeper v1.4.1-GOG'}
+2023-01-24 12:00:09,413 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '113',
+ 'link': 'https://www.skidrowreloaded.com/cult-of-the-lamb-build-10370500/',
+ 'name': 'Cult of the Lamb Build 10370500'}
+2023-01-24 12:00:09,414 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '114',
+ 'link': 'https://www.skidrowreloaded.com/baldo-the-guardian-owls-build-10364994/',
+ 'name': 'Baldo the guardian owls Build 10364994'}
+2023-01-24 12:00:09,415 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '115',
+ 'link': 'https://www.skidrowreloaded.com/animus-revenant-build-7355936/',
+ 'name': 'Animus Revenant Build 7355936'}
+2023-01-24 12:00:09,416 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '116',
+ 'link': 'https://www.skidrowreloaded.com/spirit-island-build-9670948/',
+ 'name': 'Spirit Island Build 9670948'}
+2023-01-24 12:00:09,417 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '117',
+ 'link': 'https://www.skidrowreloaded.com/songs-of-syx-v0-63-37/',
+ 'name': 'Songs of Syx v0.63.37'}
+2023-01-24 12:00:09,418 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '118',
+ 'link': 'https://www.skidrowreloaded.com/songs-of-syx-build-10376869/',
+ 'name': 'Songs of Syx Build 10376869'}
+2023-01-24 12:00:09,419 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '119',
+ 'link': 'https://www.skidrowreloaded.com/rogue-ai-simulator-v1-0-3/',
+ 'name': 'Rogue AI Simulator v1.0.3'}
+2023-01-24 12:00:09,420 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '120',
+ 'link': 'https://www.skidrowreloaded.com/robo-oh-build-10241391/',
+ 'name': 'ROBO OH Build 10241391'}
+2023-01-24 12:00:09,421 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '121',
+ 'link': 'https://www.skidrowreloaded.com/robo-instructus-v-1-33/',
+ 'name': 'Robo Instructus v1.33'}
+2023-01-24 12:00:09,422 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '122',
+ 'link': 'https://www.skidrowreloaded.com/rhythm-doctor-build-10352137/',
+ 'name': 'Rhythm Doctor Build 10352137'}
+2023-01-24 12:00:09,423 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '123',
+ 'link': 'https://www.skidrowreloaded.com/retro-gadgets-v0-1-4/',
+ 'name': 'Retro Gadgets v0.1.4'}
+2023-01-24 12:00:09,424 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '124',
+ 'link': 'https://www.skidrowreloaded.com/repit-build-8663695/',
+ 'name': 'Repit Build 8663695'}
+2023-01-24 12:00:09,425 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '125',
+ 'link': 'https://www.skidrowreloaded.com/overboard-build8656389/',
+ 'name': 'Overboard Build 8656389'}
+2023-01-24 12:00:09,427 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '126',
+ 'link': 'https://www.skidrowreloaded.com/noble-fates-v0-27-3-1/',
+ 'name': 'Noble Fates v0.27.3.1'}
+2023-01-24 12:00:09,428 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '127',
+ 'link': 'https://www.skidrowreloaded.com/my-gaming-club-v1-20/',
+ 'name': 'My Gaming Club v1.20'}
+2023-01-24 12:00:09,429 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '128',
+ 'link': 'https://www.skidrowreloaded.com/malmyr-build-7630658/',
+ 'name': 'Malmyr Build 7630658'}
+2023-01-24 12:00:09,430 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '129',
+ 'link': 'https://www.skidrowreloaded.com/makis-adventure-v20230119/',
+ 'name': 'Makis Adventure v20230119'}
+2023-01-24 12:00:09,431 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '130',
+ 'link': 'https://www.skidrowreloaded.com/in-my-shadow-build7897088/',
+ 'name': 'In My Shadow Build 7897088'}
+2023-01-24 12:00:09,432 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '131',
+ 'link': 'https://www.skidrowreloaded.com/farlanders-build-10362582/',
+ 'name': 'Farlanders Build 10362582'}
+2023-01-24 12:00:09,433 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '132',
+ 'link': 'https://www.skidrowreloaded.com/dread-delusion-build-10374618/',
+ 'name': 'Dread Delusion Build 10374618'}
+2023-01-24 12:00:09,434 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '133',
+ 'link': 'https://www.skidrowreloaded.com/despots-game-build-10365888/',
+ 'name': 'Despots Game Build 10365888'}
+2023-01-24 12:00:09,435 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '134',
+ 'link': 'https://www.skidrowreloaded.com/despots-game-dystopian-army-builder-v1-3-4/',
+ 'name': 'Despots Game Dystopian Army Builder v1.3.4'}
+2023-01-24 12:00:09,437 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '135',
+ 'link': 'https://www.skidrowreloaded.com/choice-of-magics-build-9828897/',
+ 'name': 'Choice of Magics Build 9828897'}
+2023-01-24 12:00:09,438 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '136',
+ 'link': 'https://www.skidrowreloaded.com/castillo-shattered-mirrors-build-9136198/',
+ 'name': 'CASTILLO Shattered Mirrors Build 9136198'}
+2023-01-24 12:00:09,439 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '137',
+ 'link': 'https://www.skidrowreloaded.com/atrio-the-dark-wild-build-10361202/',
+ 'name': 'Atrio The Dark Wild Build 10361202'}
+2023-01-24 12:00:09,440 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '138',
+ 'link': 'https://www.skidrowreloaded.com/artformer-ancient-stories-v1-1/',
+ 'name': 'ArtFormer Ancient Stories v1.1'}
+2023-01-24 12:00:09,442 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '139',
+ 'link': 'https://www.skidrowreloaded.com/ameagari-no-hanaby-build-7206971/',
+ 'name': 'Ameagari no Hanaby Build 7206971'}
+2023-01-24 12:00:09,443 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '140',
+ 'link': 'https://www.skidrowreloaded.com/path-of-the-midnight-sun-v1-1-p2p/',
+ 'name': 'Path of the Midnight Sun v1.1-P2P'}
+2023-01-24 12:00:09,444 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '141',
+ 'link': 'https://www.skidrowreloaded.com/ready-or-not-v25143-early-access/',
+ 'name': 'Ready or Not v25143 Early Access'}
+2023-01-24 12:00:09,445 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '142',
+ 'link': 'https://www.skidrowreloaded.com/guilty-gear-xrd-rev-2-v20230120-goldberg/',
+ 'name': 'GUILTY GEAR Xrd REV 2 v20230120-GoldBerg'}
+2023-01-24 12:00:09,446 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '143',
+ 'link': 'https://www.skidrowreloaded.com/image-tenoke/',
+ 'name': 'Image-TENOKE'}
+2023-01-24 12:00:09,447 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '144',
+ 'link': 'https://www.skidrowreloaded.com/droid-wars-duel-tenoke/',
+ 'name': 'Droid Wars Duel-TENOKE'}
+2023-01-24 12:00:09,448 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '145',
+ 'link': 'https://www.skidrowreloaded.com/lincoln-green-tenoke/',
+ 'name': 'Lincoln Green-TENOKE'}
+2023-01-24 12:00:09,449 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '146',
+ 'link': 'https://www.skidrowreloaded.com/master-of-magic-remake-v1-06-00/',
+ 'name': 'Master of Magic Remake v1.06.00'}
+2023-01-24 12:00:09,450 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '147',
+ 'link': 'https://www.skidrowreloaded.com/system-shock-enhanced-edition-v1-2-16/',
+ 'name': 'System Shock Enhanced Edition v1.2.16'}
+2023-01-24 12:00:09,451 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '148',
+ 'link': 'https://www.skidrowreloaded.com/rune-classic-v1-10/',
+ 'name': 'Rune Classic v1.10'}
+2023-01-24 12:00:09,452 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '149',
+ 'link': 'https://www.skidrowreloaded.com/zombie-cure-lab-build-10367533/',
+ 'name': 'Zombie Cure Lab Build 10367533'}
+2023-01-24 12:00:09,453 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '150',
+ 'link': 'https://www.skidrowreloaded.com/chained-echoes-v1-05/',
+ 'name': 'Chained Echoes v1.05'}
+2023-01-24 12:00:09,454 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '151',
+ 'link': 'https://www.skidrowreloaded.com/archvale-v-1-3/',
+ 'name': 'Archvale v1.3'}
+2023-01-24 12:00:09,456 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '152',
+ 'link': 'https://www.skidrowreloaded.com/the-legend-of-kyrandia-book-one-v1-1/',
+ 'name': 'The Legend of Kyrandia Book One v1.1'}
+2023-01-24 12:00:09,457 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '153',
+ 'link': 'https://www.skidrowreloaded.com/necrosmith-v-1-3-0-280/',
+ 'name': 'Necrosmith v1.3.0.280'}
+2023-01-24 12:00:09,458 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '154',
+ 'link': 'https://www.skidrowreloaded.com/scp-5k-build-9977712/',
+ 'name': 'SCP 5K Build 9977712'}
+2023-01-24 12:00:09,459 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '155',
+ 'link': 'https://www.skidrowreloaded.com/warhammer-40000-battlesector-v1-02-43/',
+ 'name': 'Warhammer 40000 Battlesector v1.02.43'}
+2023-01-24 12:00:09,460 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '156',
+ 'link': 'https://www.skidrowreloaded.com/alaloth-champions-of-the-four-kingdoms-v20230119-gog/',
+ 'name': 'Alaloth Champions of The Four Kingdoms v20230119-GOG'}
+2023-01-24 12:00:09,461 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '157',
+ 'link': 'https://www.skidrowreloaded.com/xenonauts-2-v20-01-2023/',
+ 'name': 'Xenonauts 2 v20.01.2023'}
+2023-01-24 12:00:09,462 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '158',
+ 'link': 'https://www.skidrowreloaded.com/vendetta-mafia-wars-early-access/',
+ 'name': 'Vendetta Mafia Wars Early Access'}
+2023-01-24 12:00:09,463 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '159',
+ 'link': 'https://www.skidrowreloaded.com/darkest-dungeon-ii-v0-18-42328/',
+ 'name': 'Darkest Dungeon II v0.18.42328'}
+2023-01-24 12:00:09,464 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '160',
+ 'link': 'https://www.skidrowreloaded.com/bugsnax-v2-0-65949/',
+ 'name': 'Bugsnax v2.0.65949'}
+2023-01-24 12:00:09,465 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '161',
+ 'link': 'https://www.skidrowreloaded.com/src-sprint-robot-championship-build-7422159/',
+ 'name': 'SRC Sprint Robot Championship Build 7422159'}
+2023-01-24 12:00:09,467 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '162',
+ 'link': 'https://www.skidrowreloaded.com/insomnis-build-8322432/',
+ 'name': 'Insomnis Build 8322432'}
+2023-01-24 12:00:09,468 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '163',
+ 'link': 'https://www.skidrowreloaded.com/timberborn-v0-3-5-1/',
+ 'name': 'Timberborn v0.3.5.1'}
+2023-01-24 12:00:09,469 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '164',
+ 'link': 'https://www.skidrowreloaded.com/the-multi-medium-repack/',
+ 'name': 'The Multi Medium-Repack'}
+2023-01-24 12:00:09,472 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '165',
+ 'link': 'https://www.skidrowreloaded.com/space-accident-build-10375172/',
+ 'name': 'SPACE ACCIDENT Build 10375172'}
+2023-01-24 12:00:09,473 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '166',
+ 'link': 'https://www.skidrowreloaded.com/the-sims-4-deluxe-edition-v1-94-147-1030-repack/',
+ 'name': 'The Sims 4 Deluxe Edition v1.94.147.1030-Repack'}
+2023-01-24 12:00:09,475 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '167',
+ 'link': 'https://www.skidrowreloaded.com/estencel-repack/',
+ 'name': 'Estencel-Repack'}
+2023-01-24 12:00:09,476 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '168',
+ 'link': 'https://www.skidrowreloaded.com/ai-war-2-v5-534/',
+ 'name': 'AI War 2 v5.534'}
+2023-01-24 12:00:09,477 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '169',
+ 'link': 'https://www.skidrowreloaded.com/the-pioneers-surviving-desolation-build-10375158/',
+ 'name': 'The Pioneers Surviving Desolation Build 10375158'}
+2023-01-24 12:00:09,478 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '170',
+ 'link': 'https://www.skidrowreloaded.com/scp-087-recovered-document-early-access/',
+ 'name': 'SCP 087 Recovered Document Early Access'}
+2023-01-24 12:00:09,479 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '171',
+ 'link': 'https://www.skidrowreloaded.com/risk-of-rain-2-v1-2-4-1/',
+ 'name': 'Risk of Rain 2 v1.2.4.1'}
+2023-01-24 12:00:09,480 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '172',
+ 'link': 'https://www.skidrowreloaded.com/prison-architect-build-9937246/',
+ 'name': 'Prison Architect Build 9937246'}
+2023-01-24 12:00:09,481 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '173',
+ 'link': 'https://www.skidrowreloaded.com/lost-epic-v-1-01-7/',
+ 'name': 'Lost Epic v1.01.7'}
+2023-01-24 12:00:09,482 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '174',
+ 'link': 'https://www.skidrowreloaded.com/loot-river-v-1-1-01/',
+ 'name': 'Loot River v1.1.01'}
+2023-01-24 12:00:09,483 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '175',
+ 'link': 'https://www.skidrowreloaded.com/kingdoms-reborn-v0-106/',
+ 'name': 'Kingdoms Reborn v0.106'}
+2023-01-24 12:00:09,484 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '176',
+ 'link': 'https://www.skidrowreloaded.com/gedonia-v1-2c/',
+ 'name': 'Gedonia v1.2c'}
+2023-01-24 12:00:09,486 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '177',
+ 'link': 'https://www.skidrowreloaded.com/gatekeeper-eclipse-build-10369812/',
+ 'name': 'Gatekeeper Eclipse Build 10369812'}
+2023-01-24 12:00:09,488 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '178',
+ 'link': 'https://www.skidrowreloaded.com/dimension-drive-build7964518/',
+ 'name': 'Dimension Drive Build 7964518'}
+2023-01-24 12:00:09,490 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '179',
+ 'link': 'https://www.skidrowreloaded.com/brok-the-investigator-v1-2-8-gog/',
+ 'name': 'BROK The InvestiGator v1.2.8-GOG'}
+2023-01-24 12:00:09,491 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '180',
+ 'link': 'https://www.skidrowreloaded.com/wtc-relentless-protagonist-build-10308647/',
+ 'name': 'WTC Relentless Protagonist Build 10308647'}
+2023-01-24 12:00:09,492 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '181',
+ 'link': 'https://www.skidrowreloaded.com/vampire-survivors-v1-3-100/',
+ 'name': 'Vampire Survivors v1.3.100'}
+2023-01-24 12:00:09,493 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '182',
+ 'link': 'https://www.skidrowreloaded.com/uno-build-10181864-repack/',
+ 'name': 'UNO Build 10181864-Repack'}
+2023-01-24 12:00:09,494 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '183',
+ 'link': 'https://www.skidrowreloaded.com/tiny-metal-full-metal-rumble-build-7322003/',
+ 'name': 'TINY METAL FULL METAL RUMBLE Build 7322003'}
+2023-01-24 12:00:09,495 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '184',
+ 'link': 'https://www.skidrowreloaded.com/super-cane-magic-zero-build-7603151/',
+ 'name': 'Super Cane Magic ZERO Build 7603151'}
+2023-01-24 12:00:09,497 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '185',
+ 'link': 'https://www.skidrowreloaded.com/kynseed-v1-0-1-9494/',
+ 'name': 'Kynseed v1.0.1.9494'}
+2023-01-24 12:00:09,498 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '186',
+ 'link': 'https://www.skidrowreloaded.com/filthy-animals-heist-simulator-build-10369032/',
+ 'name': 'Filthy Animals Heist Simulator Build 10369032'}
+2023-01-24 12:00:09,499 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '187',
+ 'link': 'https://www.skidrowreloaded.com/dark-quest-board-game-v0-8/',
+ 'name': 'Dark Quest Board Game v0.8'}
+2023-01-24 12:00:09,500 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '188',
+ 'link': 'https://www.skidrowreloaded.com/cult-of-the-lamb-v1-1-3/',
+ 'name': 'Cult of the Lamb v1.1.3'}
+2023-01-24 12:00:09,501 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '189',
+ 'link': 'https://www.skidrowreloaded.com/cant-drive-this-build-6402082/',
+ 'name': 'Cant Drive This Build 6402082'}
+2023-01-24 12:00:09,502 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '190',
+ 'link': 'https://www.skidrowreloaded.com/brick-rigs-build-10358584/',
+ 'name': 'Brick Rigs Build 10358584'}
+2023-01-24 12:00:09,503 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '191',
+ 'link': 'https://www.skidrowreloaded.com/vermitron-build-7165624/',
+ 'name': 'Vermitron Build 7165624'}
+2023-01-24 12:00:09,504 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '192',
+ 'link': 'https://www.skidrowreloaded.com/travellers-rest-v-0-5-4-8/',
+ 'name': 'Travellers Rest v0.5.4.8'}
+2023-01-24 12:00:09,505 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '193',
+ 'link': 'https://www.skidrowreloaded.com/towaga-among-shadowsbuild-7208351/',
+ 'name': 'Towaga Among Shadows Build 7208351'}
+2023-01-24 12:00:09,507 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '194',
+ 'link': 'https://www.skidrowreloaded.com/songs-of-syx-v0-63-34/',
+ 'name': 'Songs of Syx v0.63.34'}
+2023-01-24 12:00:09,508 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '195',
+ 'link': 'https://www.skidrowreloaded.com/software-inc-v1-4-11/',
+ 'name': 'Software Inc v1.4.11'}
+2023-01-24 12:00:09,509 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '196',
+ 'link': 'https://www.skidrowreloaded.com/sneak-in-marble-shooter-game-build-10291083/',
+ 'name': 'Sneak In Marble shooter game Build 10291083'}
+2023-01-24 12:00:09,510 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '197',
+ 'link': 'https://www.skidrowreloaded.com/shotgun-king-the-final-checkmate-v1-37-gog/',
+ 'name': 'Shotgun King The Final Checkmate v1.37-GOG'}
+2023-01-24 12:00:09,511 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '198',
+ 'link': 'https://www.skidrowreloaded.com/power-of-ten-v1-0-8-gog/',
+ 'name': 'Power of Ten v1.0.8-GOG'}
+2023-01-24 12:00:09,512 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '199',
+ 'link': 'https://www.skidrowreloaded.com/people-playground-v1-26-4-2/',
+ 'name': 'People Playground v1.26.4'}
+2023-01-24 12:00:09,513 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '200',
+ 'link': 'https://www.skidrowreloaded.com/ninja-stealth-build-8890041/',
+ 'name': 'Ninja Stealth Build 8890041'}
+2023-01-24 12:00:09,514 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '201',
+ 'link': 'https://www.skidrowreloaded.com/ninja-stealth-3-build-8866191/',
+ 'name': 'Ninja Stealth 3 Build 8866191'}
+2023-01-24 12:00:09,515 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '202',
+ 'link': 'https://www.skidrowreloaded.com/ninja-stealth-2-build-8866090/',
+ 'name': 'Ninja Stealth 2 Build 8866090'}
+2023-01-24 12:00:09,516 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '203',
+ 'link': 'https://www.skidrowreloaded.com/moons-of-ardan-v0-9-4-0/',
+ 'name': 'Moons of Ardan v0.9.4.0'}
+2023-01-24 12:00:09,517 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '204',
+ 'link': 'https://www.skidrowreloaded.com/kungfu-cowboy-build-7163451/',
+ 'name': 'Kungfu Cowboy Build 7163451'}
+2023-01-24 12:00:09,518 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '205',
+ 'link': 'https://www.skidrowreloaded.com/house-sitter-build-5246453/',
+ 'name': 'House Sitter Build 5246453'}
+2023-01-24 12:00:09,519 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '206',
+ 'link': 'https://www.skidrowreloaded.com/haven-park-v1-2-3/',
+ 'name': 'Haven Park v1.2.3'}
+2023-01-24 12:00:09,520 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '207',
+ 'link': 'https://www.skidrowreloaded.com/grey-hack-v0-8-4519a/',
+ 'name': 'Grey Hack v0.8.4519a'}
+2023-01-24 12:00:09,521 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '208',
+ 'link': 'https://www.skidrowreloaded.com/gloomwood-build-10372400/',
+ 'name': 'Gloomwood Build 10372400'}
+2023-01-24 12:00:09,522 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '209',
+ 'link': 'https://www.skidrowreloaded.com/gladium-build-10299469/',
+ 'name': 'GLADIUM Build 10299469'}
+2023-01-24 12:00:09,523 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '210',
+ 'link': 'https://www.skidrowreloaded.com/get-a-grip-chip-build-9130953/',
+ 'name': 'Get A Grip Chip Build 9130953'}
+2023-01-24 12:00:09,524 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '211',
+ 'link': 'https://www.skidrowreloaded.com/flotilla-build7110918/',
+ 'name': 'Flotilla Build 7110918'}
+2023-01-24 12:00:09,525 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '212',
+ 'link': 'https://www.skidrowreloaded.com/dominions-5-warriors-of-the-faith-v5-58/',
+ 'name': 'Dominions 5 Warriors of the Faith v5.58'}
+2023-01-24 12:00:09,527 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '213',
+ 'link': 'https://www.skidrowreloaded.com/carlos-the-taco-build-10022069/',
+ 'name': 'Carlos the Taco Build 10022069'}
+2023-01-24 12:00:09,528 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '214',
+ 'link': 'https://www.skidrowreloaded.com/booth-build-7866578/',
+ 'name': 'Booth Build 7866578'}
+2023-01-24 12:00:09,530 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '215',
+ 'link': 'https://www.skidrowreloaded.com/anodyne-2-return-to-dust-build6194140/',
+ 'name': 'Anodyne 2 Return to Dust Build 6194140'}
+2023-01-24 12:00:09,531 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '216',
+ 'link': 'https://www.skidrowreloaded.com/ancient-planet-build-10349335/',
+ 'name': 'Ancient Planet Build 10349335'}
+2023-01-24 12:00:09,532 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '217',
+ 'link': 'https://www.skidrowreloaded.com/alexeys-winter-night-adventure-build-10373764/',
+ 'name': 'Alexeys Winter Night Adventure Build 10373764'}
+2023-01-24 12:00:09,533 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '218',
+ 'link': 'https://www.skidrowreloaded.com/bram-the-toymaker-tenoke/',
+ 'name': 'Bram The Toymaker-TENOKE'}
+2023-01-24 12:00:09,534 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '219',
+ 'link': 'https://www.skidrowreloaded.com/maiz-tenoke/',
+ 'name': 'Maiz-TENOKE'}
+2023-01-24 12:00:09,535 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '220',
+ 'link': 'https://www.skidrowreloaded.com/seven-spirits-tenoke/',
+ 'name': 'Seven Spirits-TENOKE'}
+2023-01-24 12:00:09,537 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '221',
+ 'link': 'https://www.skidrowreloaded.com/sudden-market-tenoke/',
+ 'name': 'Sudden Market-TENOKE'}
+2023-01-24 12:00:09,538 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '222',
+ 'link': 'https://www.skidrowreloaded.com/isle-of-pan-repack/',
+ 'name': 'Isle Of Pan-Repack'}
+2023-01-24 12:00:09,539 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '223',
+ 'link': 'https://www.skidrowreloaded.com/the-riftbreaker-v1-34675/',
+ 'name': 'The Riftbreaker v1.34675'}
+2023-01-24 12:00:09,540 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '224',
+ 'link': 'https://www.skidrowreloaded.com/the-long-dark-v2-06-106075/',
+ 'name': 'The Long Dark v2.06.106075'}
+2023-01-24 12:00:09,541 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '225',
+ 'link': 'https://www.skidrowreloaded.com/the-dungeon-of-naheulbeuk-the-amulet-of-chaos-v1-5-992/',
+ 'name': 'The Dungeon of Naheulbeuk The Amulet of Chaos v1.5.992'}
+2023-01-24 12:00:09,542 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '226',
+ 'link': 'https://www.skidrowreloaded.com/september-7th-build-10341496/',
+ 'name': 'September 7th Build 10341496'}
+2023-01-24 12:00:09,543 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '227',
+ 'link': 'https://www.skidrowreloaded.com/metal-hellsinger-build-10283987/',
+ 'name': 'Metal Hellsinger Build 10283987'}
+2023-01-24 12:00:09,544 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '228',
+ 'link': 'https://www.skidrowreloaded.com/industria-build-9823374/',
+ 'name': 'INDUSTRIA Build 9823374'}
+2023-01-24 12:00:09,545 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '229',
+ 'link': 'https://www.skidrowreloaded.com/escape-the-backrooms-build-10364467/',
+ 'name': 'Escape the Backrooms Build 10364467'}
+2023-01-24 12:00:09,546 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '230',
+ 'link': 'https://www.skidrowreloaded.com/sailing-era-build-10347061/',
+ 'name': 'Sailing Era Build 10347061'}
+2023-01-24 12:00:09,548 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '231',
+ 'link': 'https://www.skidrowreloaded.com/2032-a-new-threat-repack/',
+ 'name': '2032 A New Threat-Repack'}
+2023-01-24 12:00:09,549 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '232',
+ 'link': 'https://www.skidrowreloaded.com/the-greatest-penguin-heist-of-all-time-build-10315367/',
+ 'name': 'The Greatest Penguin Heist of All Time Build 10315367'}
+2023-01-24 12:00:09,550 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '233',
+ 'link': 'https://www.skidrowreloaded.com/the-bad-kids-v20230120/',
+ 'name': 'The Bad Kids v20230120'}
+2023-01-24 12:00:09,551 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '234',
+ 'link': 'https://www.skidrowreloaded.com/subnautica-below-zero-v19-01-2023/',
+ 'name': 'Subnautica Below Zero v19.01.2023'}
+2023-01-24 12:00:09,553 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '235',
+ 'link': 'https://www.skidrowreloaded.com/sadness-of-valor-repack/',
+ 'name': 'Sadness Of Valor-Repack'}
+2023-01-24 12:00:09,554 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '236',
+ 'link': 'https://www.skidrowreloaded.com/lost-empire-2977-repack/',
+ 'name': 'Lost Empire 2977-Repack'}
+2023-01-24 12:00:09,555 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '237',
+ 'link': 'https://www.skidrowreloaded.com/hellish-quart-v2023-01-20-0/',
+ 'name': 'Hellish Quart v2023.01.20.0'}
+2023-01-24 12:00:09,556 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '238',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-downpour-razor1911/',
+ 'name': 'Rain World Downpour-Razor1911'}
+2023-01-24 12:00:09,558 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '239',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-downpour-gog/',
+ 'name': 'Rain World Downpour-GOG'}
+2023-01-24 12:00:09,559 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '240',
+ 'link': 'https://www.skidrowreloaded.com/the-pioneers-surviving-desolation-early-access/',
+ 'name': 'The Pioneers Surviving Desolation Early Access'}
+2023-01-24 12:00:09,561 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '241',
+ 'link': 'https://www.skidrowreloaded.com/2112td-tower-defense-survival-goldberg/',
+ 'name': '2112TD Tower Defense Survival-GoldBerg'}
+2023-01-24 12:00:09,562 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '242',
+ 'link': 'https://www.skidrowreloaded.com/project-warlock-ii-v0-2-7-78/',
+ 'name': 'Project Warlock II v0.2.7.78'}
+2023-01-24 12:00:09,563 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '243',
+ 'link': 'https://www.skidrowreloaded.com/warm-snow-build-10360564/',
+ 'name': 'Warm Snow Build 10360564'}
+2023-01-24 12:00:09,564 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '244',
+ 'link': 'https://www.skidrowreloaded.com/utopia-colony-build-10363960/',
+ 'name': 'Utopia Colony Build 10363960'}
+2023-01-24 12:00:09,566 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '245',
+ 'link': 'https://www.skidrowreloaded.com/gordian-quest-v1-2-12-gog/',
+ 'name': 'Gordian Quest v1.2.12-GOG'}
+2023-01-24 12:00:09,567 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '246',
+ 'link': 'https://www.skidrowreloaded.com/garbage-build-7254133/',
+ 'name': 'Garbage Build 7254133'}
+2023-01-24 12:00:09,569 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '247',
+ 'link': 'https://www.skidrowreloaded.com/the-legend-of-heroes-trails-from-zero-v1-4-4-dinobytes/',
+ 'name': 'The Legend of Heroes Trails from Zero v1.4.4-DINOByTES'}
+2023-01-24 12:00:09,572 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '248',
+ 'link': 'https://www.skidrowreloaded.com/winter-resort-simulator-season-2-v1-24/',
+ 'name': 'Winter Resort Simulator Season 2 v1.24'}
+2023-01-24 12:00:09,574 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '249',
+ 'link': 'https://www.skidrowreloaded.com/warhammer-40000-gladius-relics-of-war-v1-11-01-00/',
+ 'name': 'Warhammer 40000 Gladius Relics of War v1.11.01.00'}
+2023-01-24 12:00:09,576 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '250',
+ 'link': 'https://www.skidrowreloaded.com/tortuga-a-pirates-tale-repack/',
+ 'name': 'Tortuga A Pirates Tale-Repack'}
+2023-01-24 12:00:09,578 Filtered offsite request to 'www.skidrowreloaded.com': <GET https://www.skidrowreloaded.com/pc/?lcp_page1=2#lcp_instance_1>
+2023-01-24 12:00:09,582 Closing spider (finished)
+2023-01-24 12:00:09,582 Stored json feed (250 items) in: /home/sad/PycharmProject/rest/files/skidow.json
+2023-01-24 12:00:09,583 Dumping Scrapy stats:
+{'downloader/request_bytes': 459,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 23052,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 0.71825,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 1, 24, 10, 0, 9, 582657),
+ 'httpcompression/response_bytes': 147394,
+ 'httpcompression/response_count': 2,
+ 'item_scraped_count': 250,
+ 'log_count/DEBUG': 256,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 71196672,
+ 'memusage/startup': 71196672,
+ 'offsite/domains': 1,
+ 'offsite/filtered': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 1, 24, 10, 0, 8, 864407)}
+2023-01-24 12:00:09,584 Spider closed (finished)
+2023-01-24 12:00:52,055 Scrapy 2.7.1 started (bot: scrapy_skidrow)
+2023-01-24 12:00:52,057 Versions: lxml 4.9.2.0, libxml2 2.9.14, cssselect 1.2.0, parsel 1.7.0, w3lib 2.1.1, Twisted 22.10.0, Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0], pyOpenSSL 23.0.0 (OpenSSL 3.0.7 1 Nov 2022), cryptography 39.0.0, Platform Linux-5.15.0-41-generic-x86_64-with-glibc2.35
+2023-01-24 12:00:52,060 Overridden settings:
+{'BOT_NAME': 'scrapy_skidrow',
+ 'NEWSPIDER_MODULE': 'scrapy_skidrow.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scrapy_skidrow.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2023-01-24 12:00:52,061 Using selector: EpollSelector
+2023-01-24 12:00:52,062 Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-01-24 12:00:52,062 Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2023-01-24 12:00:52,077 Telnet Password: e6eaa34d2a88ed5a
+2023-01-24 12:00:52,091 Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2023-01-24 12:00:52,195 Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-01-24 12:00:52,197 Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-01-24 12:00:52,198 Enabled item pipelines:
+[]
+2023-01-24 12:00:52,199 Spider opened
+2023-01-24 12:00:52,297 Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-01-24 12:00:52,298 /home/sad/PycharmProject/rest/venv/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py:71: URLWarning: allowed_domains accepts only domains, not URLs. Ignoring URL entry https://www.skidrowreloaded.com/pc/ in allowed_domains.
+  warnings.warn(message, URLWarning)
+
+2023-01-24 12:00:52,300 Telnet console listening on 127.0.0.1:6030
+2023-01-24 12:00:52,432 Crawled (200) <GET https://www.skidrowreloaded.com/robots.txt> (referer: None)
+2023-01-24 12:00:52,501 Crawled (200) <GET https://www.skidrowreloaded.com/pc/> (referer: None)
+2023-01-24 12:00:52,612 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '1',
+ 'link': 'https://www.skidrowreloaded.com/tangledeep-v1-53k/',
+ 'name': 'Tangledeep v1.53k'}
+2023-01-24 12:00:52,614 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '2',
+ 'link': 'https://www.skidrowreloaded.com/sylphy-and-the-sleepless-island-gog/',
+ 'name': 'Sylphy and the Sleepless Island-GOG'}
+2023-01-24 12:00:52,615 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '3',
+ 'link': 'https://www.skidrowreloaded.com/seven-spirits-build-10367501-repack/',
+ 'name': 'Seven Spirits Build 10367501-Repack'}
+2023-01-24 12:00:52,616 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '4',
+ 'link': 'https://www.skidrowreloaded.com/gross-v20230117/',
+ 'name': 'GROSS v20230117'}
+2023-01-24 12:00:52,616 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '5',
+ 'link': 'https://www.skidrowreloaded.com/motor-town-v0-6-15-1/',
+ 'name': 'Motor Town v0.6.15.1'}
+2023-01-24 12:00:52,617 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '6',
+ 'link': 'https://www.skidrowreloaded.com/doraemon-story-of-seasons-fotgk-build-20230118/',
+ 'name': 'DORAEMON STORY OF SEASONS FotGK Build 20230118'}
+2023-01-24 12:00:52,618 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '7',
+ 'link': 'https://www.skidrowreloaded.com/kingdom-two-crowns-v1-1-18/',
+ 'name': 'Kingdom Two Crowns v1.1.18'}
+2023-01-24 12:00:52,620 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '8',
+ 'link': 'https://www.skidrowreloaded.com/apostle-gog/',
+ 'name': 'Apostle-GOG'}
+2023-01-24 12:00:52,621 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '9',
+ 'link': 'https://www.skidrowreloaded.com/7-girls-war-gog/',
+ 'name': '7 Girls War-GOG'}
+2023-01-24 12:00:52,622 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '10',
+ 'link': 'https://www.skidrowreloaded.com/zombie-cure-lab-v0-17-3/',
+ 'name': 'Zombie Cure Lab v0.17.3'}
+2023-01-24 12:00:52,623 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '11',
+ 'link': 'https://www.skidrowreloaded.com/underdungeon-v1-1-hotfix-2/',
+ 'name': 'UnderDungeon v1.1.HotFix.2'}
+2023-01-24 12:00:52,625 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '12',
+ 'link': 'https://www.skidrowreloaded.com/terraformers-v0-9-52/',
+ 'name': 'Terraformers v0.9.52'}
+2023-01-24 12:00:52,625 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '13',
+ 'link': 'https://www.skidrowreloaded.com/punch-a-bunch-v20230122/',
+ 'name': 'Punch A Bunch v20230122'}
+2023-01-24 12:00:52,626 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '14',
+ 'link': 'https://www.skidrowreloaded.com/obscurite-magie-the-city-of-sin-gog/',
+ 'name': 'Obscurite Magie The City of Sin-GOG'}
+2023-01-24 12:00:52,627 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '15',
+ 'link': 'https://www.skidrowreloaded.com/magical-valkyrie-lyristia-gog/',
+ 'name': 'Magical Valkyrie Lyristia-GOG'}
+2023-01-24 12:00:52,628 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '16',
+ 'link': 'https://www.skidrowreloaded.com/intravenous-v1-4-0-3-gog/',
+ 'name': 'Intravenous v1.4.0.3-GOG'}
+2023-01-24 12:00:52,629 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '17',
+ 'link': 'https://www.skidrowreloaded.com/grand-cross-renovation-v1-20g/',
+ 'name': 'GRAND CROSS ReNOVATION v1.20g'}
+2023-01-24 12:00:52,630 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '18',
+ 'link': 'https://www.skidrowreloaded.com/evening-starter-gog/',
+ 'name': 'Evening Starter-GOG'}
+2023-01-24 12:00:52,631 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '19',
+ 'link': 'https://www.skidrowreloaded.com/dwerve-v1-1-6/',
+ 'name': 'Dwerve v1.1.6'}
+2023-01-24 12:00:52,632 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '20',
+ 'link': 'https://www.skidrowreloaded.com/coralina-v20230121/',
+ 'name': 'Coralina v20230121'}
+2023-01-24 12:00:52,633 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '21',
+ 'link': 'https://www.skidrowreloaded.com/castle-cardians-v0-170001/',
+ 'name': 'Castle Cardians v0.170001'}
+2023-01-24 12:00:52,634 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '22',
+ 'link': 'https://www.skidrowreloaded.com/ariels-daily-grind-gog/',
+ 'name': 'Ariels Daily Grind-GOG'}
+2023-01-24 12:00:52,635 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '23',
+ 'link': 'https://www.skidrowreloaded.com/undead-horde-2-necropolis-v0-9-1-15/',
+ 'name': 'Undead Horde 2 Necropolis v0.9.1.15'}
+2023-01-24 12:00:52,637 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '24',
+ 'link': 'https://www.skidrowreloaded.com/the-crackpet-show-v1-1-4/',
+ 'name': 'The Crackpet Show v1.1.4'}
+2023-01-24 12:00:52,638 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '25',
+ 'link': 'https://www.skidrowreloaded.com/tfm-the-first-men-v0-6-0/',
+ 'name': 'TFM The First Men v0.6.0'}
+2023-01-24 12:00:52,640 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '26',
+ 'link': 'https://www.skidrowreloaded.com/terraforming-mars-v2-0000-1-12595-gog/',
+ 'name': 'Terraforming Mars v2.0000.1.12595-GOG'}
+2023-01-24 12:00:52,641 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '27',
+ 'link': 'https://www.skidrowreloaded.com/terraforming-mars-v2-0-1/',
+ 'name': 'Terraforming Mars v2.0.1'}
+2023-01-24 12:00:52,642 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '28',
+ 'link': 'https://www.skidrowreloaded.com/survivalist-v74/',
+ 'name': 'Survivalist v74'}
+2023-01-24 12:00:52,644 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '29',
+ 'link': 'https://www.skidrowreloaded.com/stormworks-build-and-rescue-v1-6-12/',
+ 'name': 'Stormworks Build and Rescue v1.6.12'}
+2023-01-24 12:00:52,645 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '30',
+ 'link': 'https://www.skidrowreloaded.com/shotgun-king-the-final-checkmate-v1-37/',
+ 'name': 'Shotgun King The Final Checkmate v1.37'}
+2023-01-24 12:00:52,646 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '31',
+ 'link': 'https://www.skidrowreloaded.com/ruinarch-v0-13/',
+ 'name': 'Ruinarch v0.13'}
+2023-01-24 12:00:52,648 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '32',
+ 'link': 'https://www.skidrowreloaded.com/revita-v1-0-4/',
+ 'name': 'Revita v1.0.4'}
+2023-01-24 12:00:52,649 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '33',
+ 'link': 'https://www.skidrowreloaded.com/punch-a-bunch-repack/',
+ 'name': 'Punch A Bunch-Repack'}
+2023-01-24 12:00:52,650 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '34',
+ 'link': 'https://www.skidrowreloaded.com/planet-centauri-v0-13-8b/',
+ 'name': 'Planet Centauri v0.13.8b'}
+2023-01-24 12:00:52,651 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '35',
+ 'link': 'https://www.skidrowreloaded.com/people-playground-build-20230122/',
+ 'name': 'People Playground Build 20230122'}
+2023-01-24 12:00:52,652 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '36',
+ 'link': 'https://www.skidrowreloaded.com/paleon-alpha-v1-15-2/',
+ 'name': 'Paleon Alpha v1.15.2'}
+2023-01-24 12:00:52,653 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '37',
+ 'link': 'https://www.skidrowreloaded.com/midnights-of-desperado-v1-9-4/',
+ 'name': 'MidNights of Desperado v1.9.4'}
+2023-01-24 12:00:52,655 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '38',
+ 'link': 'https://www.skidrowreloaded.com/mad-games-tycoon-2-v2023-01-23b/',
+ 'name': 'Mad Games Tycoon 2 v2023.01.23b'}
+2023-01-24 12:00:52,657 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '39',
+ 'link': 'https://www.skidrowreloaded.com/luck-be-a-landlord-v1-0-23/',
+ 'name': 'Luck be a Landlord v1.0.23'}
+2023-01-24 12:00:52,658 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '40',
+ 'link': 'https://www.skidrowreloaded.com/last-wood-v1-0-0f9/',
+ 'name': 'Last Wood v1.0.0f9'}
+2023-01-24 12:00:52,660 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '41',
+ 'link': 'https://www.skidrowreloaded.com/juno-new-origins-v1-02/',
+ 'name': 'Juno New Origins v1.02'}
+2023-01-24 12:00:52,662 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '42',
+ 'link': 'https://www.skidrowreloaded.com/increlution-build-20230120/',
+ 'name': 'Increlution Build 20230120'}
+2023-01-24 12:00:52,663 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '43',
+ 'link': 'https://www.skidrowreloaded.com/haiku-the-robot-v1-1-4/',
+ 'name': 'Haiku the Robot v1.1.4'}
+2023-01-24 12:00:52,665 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '44',
+ 'link': 'https://www.skidrowreloaded.com/fireworks-mania-v2023-1-2/',
+ 'name': 'Fireworks Mania v2023.1.2'}
+2023-01-24 12:00:52,666 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '45',
+ 'link': 'https://www.skidrowreloaded.com/equilinox-v1-7-2/',
+ 'name': 'Equilinox v1.7.2'}
+2023-01-24 12:00:52,667 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '46',
+ 'link': 'https://www.skidrowreloaded.com/colt-canyon-v1-2-1-3/',
+ 'name': 'Colt Canyon v1.2.1.3'}
+2023-01-24 12:00:52,669 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '47',
+ 'link': 'https://www.skidrowreloaded.com/boneraiser-minions-v23-1/',
+ 'name': 'Boneraiser Minions v23.1'}
+2023-01-24 12:00:52,671 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '48',
+ 'link': 'https://www.skidrowreloaded.com/birth-of-shadows-v1-9-10-12/',
+ 'name': 'Birth of Shadows v1.9.10.12'}
+2023-01-24 12:00:52,673 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '49',
+ 'link': 'https://www.skidrowreloaded.com/airships-conquer-the-skies-v1-1-2-1-gog/',
+ 'name': 'Airships Conquer the Skies v1.1.2.1-GOG'}
+2023-01-24 12:00:52,675 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '50',
+ 'link': 'https://www.skidrowreloaded.com/airships-conquer-the-skies-v1-1-2-1/',
+ 'name': 'Airships Conquer the Skies v1.1.2.1'}
+2023-01-24 12:00:52,677 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '51',
+ 'link': 'https://www.skidrowreloaded.com/a-space-for-the-unbound-deluxe-edition-repack/',
+ 'name': 'A Space for the Unbound Deluxe Edition-Repack'}
+2023-01-24 12:00:52,678 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '52',
+ 'link': 'https://www.skidrowreloaded.com/the-forgotten-tapes-analog-nightmares-tenoke/',
+ 'name': 'The Forgotten Tapes Analog Nightmares-TENOKE'}
+2023-01-24 12:00:52,680 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '53',
+ 'link': 'https://www.skidrowreloaded.com/sapper-defuse-the-bomb-simulator-tenoke/',
+ 'name': 'Sapper Defuse The Bomb Simulator-TENOKE'}
+2023-01-24 12:00:52,681 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '54',
+ 'link': 'https://www.skidrowreloaded.com/asfalia-anger-tenoke/',
+ 'name': 'Asfalia Anger-TENOKE'}
+2023-01-24 12:00:52,683 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '55',
+ 'link': 'https://www.skidrowreloaded.com/deep-in-the-snowy-night-tenoke/',
+ 'name': 'Deep In The Snowy Night-TENOKE'}
+2023-01-24 12:00:52,684 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '56',
+ 'link': 'https://www.skidrowreloaded.com/colossal-cave-tenoke/',
+ 'name': 'Colossal Cave-TENOKE'}
+2023-01-24 12:00:52,686 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '57',
+ 'link': 'https://www.skidrowreloaded.com/project-warlock-claymore-goldberg/',
+ 'name': 'Project Warlock Claymore-GoldBerg'}
+2023-01-24 12:00:52,689 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '58',
+ 'link': 'https://www.skidrowreloaded.com/dead-by-daylight-ultimate-edition-v4-4-2-0xdeadc0de/',
+ 'name': 'Dead by Daylight Ultimate Edition v4.4.2-0xdeadc0de'}
+2023-01-24 12:00:52,690 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '59',
+ 'link': 'https://www.skidrowreloaded.com/warno-oudinot-early-access/',
+ 'name': 'WARNO OUDINOT Early Access'}
+2023-01-24 12:00:52,692 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '60',
+ 'link': 'https://www.skidrowreloaded.com/siege-survival-gloria-victis-v20230119-p2p/',
+ 'name': 'Siege Survival Gloria Victis v20230119-P2P'}
+2023-01-24 12:00:52,693 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '61',
+ 'link': 'https://www.skidrowreloaded.com/jianghu-survivors-early-access/',
+ 'name': 'Jianghu Survivors Early Access'}
+2023-01-24 12:00:52,694 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '62',
+ 'link': 'https://www.skidrowreloaded.com/commonhood-v1-1-1-6-goldberg/',
+ 'name': 'Commonhood v1.1.1.6-GoldBerg'}
+2023-01-24 12:00:52,696 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '63',
+ 'link': 'https://www.skidrowreloaded.com/aquatico-v1-003-4-goldberg/',
+ 'name': 'Aquatico v1.003.4-GoldBerg'}
+2023-01-24 12:00:52,697 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '64',
+ 'link': 'https://www.skidrowreloaded.com/kingdom-two-crowns-lost-islands-goldberg/',
+ 'name': 'Kingdom Two Crowns Lost Islands-GoldBerg'}
+2023-01-24 12:00:52,698 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '65',
+ 'link': 'https://www.skidrowreloaded.com/acolony-early-access/',
+ 'name': 'AColony Early Access'}
+2023-01-24 12:00:52,699 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '66',
+ 'link': 'https://www.skidrowreloaded.com/voxel-tycoon-passengers-2-0-early-access/',
+ 'name': 'Voxel Tycoon Passengers 2.0 Early Access'}
+2023-01-24 12:00:52,701 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '67',
+ 'link': 'https://www.skidrowreloaded.com/flotsam-the-botanist-early-access/',
+ 'name': 'Flotsam The Botanist Early Access'}
+2023-01-24 12:00:52,703 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '68',
+ 'link': 'https://www.skidrowreloaded.com/green-hell-v2-4-0-p2p/',
+ 'name': 'Green Hell v2.4.0-P2P'}
+2023-01-24 12:00:52,705 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '69',
+ 'link': 'https://www.skidrowreloaded.com/ultimate-fishing-simulator-2-build-10270602/',
+ 'name': 'Ultimate Fishing Simulator 2 Build 10270602'}
+2023-01-24 12:00:52,706 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '70',
+ 'link': 'https://www.skidrowreloaded.com/sid-meiers-civilization-vi-platinum-edition-v1-0-12-31-repack/',
+ 'name': 'Sid Meiers Civilization VI Platinum Edition v1.0.12.31-Repack'}
+2023-01-24 12:00:52,708 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '71',
+ 'link': 'https://www.skidrowreloaded.com/escape-the-backrooms-v22-01-2023/',
+ 'name': 'Escape the Backrooms v22.01.2023'}
+2023-01-24 12:00:52,708 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '72',
+ 'link': 'https://www.skidrowreloaded.com/automation-the-car-company-tycoon-game-build-10287257/',
+ 'name': 'Automation The Car Company Tycoon Game Build 10287257'}
+2023-01-24 12:00:52,709 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '73',
+ 'link': 'https://www.skidrowreloaded.com/sbox-build-10376186/',
+ 'name': 'S&Box Build 10376186'}
+2023-01-24 12:00:52,710 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '74',
+ 'link': 'https://www.skidrowreloaded.com/deadstep-build-9748602/',
+ 'name': 'Deadstep Build 9748602'}
+2023-01-24 12:00:52,711 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '75',
+ 'link': 'https://www.skidrowreloaded.com/hellish-quart-v0-3061/',
+ 'name': 'Hellish Quart v0.3061'}
+2023-01-24 12:00:52,713 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '76',
+ 'link': 'https://www.skidrowreloaded.com/overdrift-festival-build-10326827/',
+ 'name': 'OverDrift Festival Build 10326827'}
+2023-01-24 12:00:52,714 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '77',
+ 'link': 'https://www.skidrowreloaded.com/element-td-2-build-10256873/',
+ 'name': 'Element TD 2 Build 10256873'}
+2023-01-24 12:00:52,716 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '78',
+ 'link': 'https://www.skidrowreloaded.com/cygnus-enterprises-build-10348314/',
+ 'name': 'Cygnus Enterprises Build 10348314'}
+2023-01-24 12:00:52,717 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '79',
+ 'link': 'https://www.skidrowreloaded.com/ultimate-fishing-simulator-build-10326742/',
+ 'name': 'Ultimate Fishing Simulator Build 10326742'}
+2023-01-24 12:00:52,719 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '80',
+ 'link': 'https://www.skidrowreloaded.com/the-pathless-build-7169615/',
+ 'name': 'The Pathless Build 7169615'}
+2023-01-24 12:00:52,721 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '81',
+ 'link': 'https://www.skidrowreloaded.com/the-drone-racing-league-simulator-build-8906714/',
+ 'name': 'The Drone Racing League Simulator Build 8906714'}
+2023-01-24 12:00:52,722 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '82',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-build-10375941/',
+ 'name': 'Rain World Build 10375941'}
+2023-01-24 12:00:52,724 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '83',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-v1-9-02/',
+ 'name': 'Rain World v1.9.02'}
+2023-01-24 12:00:52,726 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '84',
+ 'link': 'https://www.skidrowreloaded.com/project-gunship-v1-0-0-5/',
+ 'name': 'Project Gunship v1.0.0.5'}
+2023-01-24 12:00:52,728 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '85',
+ 'link': 'https://www.skidrowreloaded.com/avernus-repack/',
+ 'name': 'Avernus-Repack'}
+2023-01-24 12:00:52,729 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '86',
+ 'link': 'https://www.skidrowreloaded.com/sailing-era-v20230123-p2p/',
+ 'name': 'Sailing Era v20230123-P2P'}
+2023-01-24 12:00:52,730 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '87',
+ 'link': 'https://www.skidrowreloaded.com/the-bad-kids-v20230123-p2p/',
+ 'name': 'The Bad Kids v20230123-P2P'}
+2023-01-24 12:00:52,732 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '88',
+ 'link': 'https://www.skidrowreloaded.com/september-7th-v20230122-p2p/',
+ 'name': 'September 7th v20230122-P2P'}
+2023-01-24 12:00:52,733 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '89',
+ 'link': 'https://www.skidrowreloaded.com/farmers-life-v0-8-51/',
+ 'name': 'Farmers Life v0.8.51'}
+2023-01-24 12:00:52,735 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '90',
+ 'link': 'https://www.skidrowreloaded.com/project-zomboid-build10105824/',
+ 'name': 'Project Zomboid Build 10105824'}
+2023-01-24 12:00:52,736 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '91',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-world-downpour-repack/',
+ 'name': 'Rain World World Downpour-Repack'}
+2023-01-24 12:00:52,738 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '92',
+ 'link': 'https://www.skidrowreloaded.com/astro-colony-build-10374704/',
+ 'name': 'Astro Colony Build 10374704'}
+2023-01-24 12:00:52,739 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '93',
+ 'link': 'https://www.skidrowreloaded.com/against-the-storm-v0-42-2r-gog/',
+ 'name': 'Against the Storm v0.42.2r-GOG'}
+2023-01-24 12:00:52,741 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '94',
+ 'link': 'https://www.skidrowreloaded.com/ultimate-admiral-dreadnoughts-v1-1/',
+ 'name': 'Ultimate Admiral Dreadnoughts v1.1'}
+2023-01-24 12:00:52,742 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '95',
+ 'link': 'https://www.skidrowreloaded.com/trials-of-wilderness-v4-9-3/',
+ 'name': 'Trials of Wilderness v4.9.3'}
+2023-01-24 12:00:52,743 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '96',
+ 'link': 'https://www.skidrowreloaded.com/surviving-the-abyss-v0-1-4-3/',
+ 'name': 'Surviving the Abyss v0.1.4.3'}
+2023-01-24 12:00:52,745 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '97',
+ 'link': 'https://www.skidrowreloaded.com/retrowave-build-10376251/',
+ 'name': 'Retrowave Build 10376251'}
+2023-01-24 12:00:52,746 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '98',
+ 'link': 'https://www.skidrowreloaded.com/queens-glory-build-6510838/',
+ 'name': 'Queens Glory Build 6510838'}
+2023-01-24 12:00:52,747 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '99',
+ 'link': 'https://www.skidrowreloaded.com/kingdoms-reborn-build-10365821/',
+ 'name': 'Kingdoms Reborn Build 10365821'}
+2023-01-24 12:00:52,749 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '100',
+ 'link': 'https://www.skidrowreloaded.com/goal-the-club-manager-v0-18-19-135/',
+ 'name': 'GOAL The Club Manager v0.18.19.135'}
+2023-01-24 12:00:52,750 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '101',
+ 'link': 'https://www.skidrowreloaded.com/football-tactics-and-glory-build-10233306/',
+ 'name': 'Football Tactics and Glory Build 10233306'}
+2023-01-24 12:00:52,751 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '102',
+ 'link': 'https://www.skidrowreloaded.com/dont-starve-together-v539293/',
+ 'name': 'Dont Starve Together v539293'}
+2023-01-24 12:00:52,752 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '103',
+ 'link': 'https://www.skidrowreloaded.com/auto-age-standoff-build-9123150/',
+ 'name': 'Auto Age Standoff Build 9123150'}
+2023-01-24 12:00:52,753 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '104',
+ 'link': 'https://www.skidrowreloaded.com/armello-build-10109492/',
+ 'name': 'Armello Build 10109492'}
+2023-01-24 12:00:52,754 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '105',
+ 'link': 'https://www.skidrowreloaded.com/supermash-build-6081294/',
+ 'name': 'SuperMash Build 6081294'}
+2023-01-24 12:00:52,755 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '106',
+ 'link': 'https://www.skidrowreloaded.com/lawless-west-build-10377313/',
+ 'name': 'Lawless West Build 10377313'}
+2023-01-24 12:00:52,756 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '107',
+ 'link': 'https://www.skidrowreloaded.com/landlords-super-build-10307679/',
+ 'name': 'Landlords Super Build 10307679'}
+2023-01-24 12:00:52,758 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '108',
+ 'link': 'https://www.skidrowreloaded.com/intravenous-v1-4-0-3/',
+ 'name': 'Intravenous v1.4.0.3'}
+2023-01-24 12:00:52,759 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '109',
+ 'link': 'https://www.skidrowreloaded.com/dream-engines-nomad-cities-v0-11-478/',
+ 'name': 'Dream Engines Nomad Cities v0.11.478'}
+2023-01-24 12:00:52,760 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '110',
+ 'link': 'https://www.skidrowreloaded.com/september-7th-v20230121-p2p/',
+ 'name': 'September 7th v20230121-P2P'}
+2023-01-24 12:00:52,761 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '111',
+ 'link': 'https://www.skidrowreloaded.com/the-secret-ops-tenoke/',
+ 'name': 'The Secret Ops-TENOKE'}
+2023-01-24 12:00:52,762 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '112',
+ 'link': 'https://www.skidrowreloaded.com/dome-keeper-v1-4-1-gog/',
+ 'name': 'Dome Keeper v1.4.1-GOG'}
+2023-01-24 12:00:52,763 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '113',
+ 'link': 'https://www.skidrowreloaded.com/cult-of-the-lamb-build-10370500/',
+ 'name': 'Cult of the Lamb Build 10370500'}
+2023-01-24 12:00:52,765 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '114',
+ 'link': 'https://www.skidrowreloaded.com/baldo-the-guardian-owls-build-10364994/',
+ 'name': 'Baldo the guardian owls Build 10364994'}
+2023-01-24 12:00:52,766 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '115',
+ 'link': 'https://www.skidrowreloaded.com/animus-revenant-build-7355936/',
+ 'name': 'Animus Revenant Build 7355936'}
+2023-01-24 12:00:52,768 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '116',
+ 'link': 'https://www.skidrowreloaded.com/spirit-island-build-9670948/',
+ 'name': 'Spirit Island Build 9670948'}
+2023-01-24 12:00:52,769 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '117',
+ 'link': 'https://www.skidrowreloaded.com/songs-of-syx-v0-63-37/',
+ 'name': 'Songs of Syx v0.63.37'}
+2023-01-24 12:00:52,771 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '118',
+ 'link': 'https://www.skidrowreloaded.com/songs-of-syx-build-10376869/',
+ 'name': 'Songs of Syx Build 10376869'}
+2023-01-24 12:00:52,773 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '119',
+ 'link': 'https://www.skidrowreloaded.com/rogue-ai-simulator-v1-0-3/',
+ 'name': 'Rogue AI Simulator v1.0.3'}
+2023-01-24 12:00:52,774 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '120',
+ 'link': 'https://www.skidrowreloaded.com/robo-oh-build-10241391/',
+ 'name': 'ROBO OH Build 10241391'}
+2023-01-24 12:00:52,775 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '121',
+ 'link': 'https://www.skidrowreloaded.com/robo-instructus-v-1-33/',
+ 'name': 'Robo Instructus v1.33'}
+2023-01-24 12:00:52,776 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '122',
+ 'link': 'https://www.skidrowreloaded.com/rhythm-doctor-build-10352137/',
+ 'name': 'Rhythm Doctor Build 10352137'}
+2023-01-24 12:00:52,778 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '123',
+ 'link': 'https://www.skidrowreloaded.com/retro-gadgets-v0-1-4/',
+ 'name': 'Retro Gadgets v0.1.4'}
+2023-01-24 12:00:52,779 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '124',
+ 'link': 'https://www.skidrowreloaded.com/repit-build-8663695/',
+ 'name': 'Repit Build 8663695'}
+2023-01-24 12:00:52,781 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '125',
+ 'link': 'https://www.skidrowreloaded.com/overboard-build8656389/',
+ 'name': 'Overboard Build 8656389'}
+2023-01-24 12:00:52,782 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '126',
+ 'link': 'https://www.skidrowreloaded.com/noble-fates-v0-27-3-1/',
+ 'name': 'Noble Fates v0.27.3.1'}
+2023-01-24 12:00:52,783 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '127',
+ 'link': 'https://www.skidrowreloaded.com/my-gaming-club-v1-20/',
+ 'name': 'My Gaming Club v1.20'}
+2023-01-24 12:00:52,784 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '128',
+ 'link': 'https://www.skidrowreloaded.com/malmyr-build-7630658/',
+ 'name': 'Malmyr Build 7630658'}
+2023-01-24 12:00:52,785 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '129',
+ 'link': 'https://www.skidrowreloaded.com/makis-adventure-v20230119/',
+ 'name': 'Makis Adventure v20230119'}
+2023-01-24 12:00:52,787 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '130',
+ 'link': 'https://www.skidrowreloaded.com/in-my-shadow-build7897088/',
+ 'name': 'In My Shadow Build 7897088'}
+2023-01-24 12:00:52,788 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '131',
+ 'link': 'https://www.skidrowreloaded.com/farlanders-build-10362582/',
+ 'name': 'Farlanders Build 10362582'}
+2023-01-24 12:00:52,790 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '132',
+ 'link': 'https://www.skidrowreloaded.com/dread-delusion-build-10374618/',
+ 'name': 'Dread Delusion Build 10374618'}
+2023-01-24 12:00:52,791 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '133',
+ 'link': 'https://www.skidrowreloaded.com/despots-game-build-10365888/',
+ 'name': 'Despots Game Build 10365888'}
+2023-01-24 12:00:52,792 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '134',
+ 'link': 'https://www.skidrowreloaded.com/despots-game-dystopian-army-builder-v1-3-4/',
+ 'name': 'Despots Game Dystopian Army Builder v1.3.4'}
+2023-01-24 12:00:52,793 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '135',
+ 'link': 'https://www.skidrowreloaded.com/choice-of-magics-build-9828897/',
+ 'name': 'Choice of Magics Build 9828897'}
+2023-01-24 12:00:52,794 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '136',
+ 'link': 'https://www.skidrowreloaded.com/castillo-shattered-mirrors-build-9136198/',
+ 'name': 'CASTILLO Shattered Mirrors Build 9136198'}
+2023-01-24 12:00:52,796 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '137',
+ 'link': 'https://www.skidrowreloaded.com/atrio-the-dark-wild-build-10361202/',
+ 'name': 'Atrio The Dark Wild Build 10361202'}
+2023-01-24 12:00:52,798 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '138',
+ 'link': 'https://www.skidrowreloaded.com/artformer-ancient-stories-v1-1/',
+ 'name': 'ArtFormer Ancient Stories v1.1'}
+2023-01-24 12:00:52,799 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '139',
+ 'link': 'https://www.skidrowreloaded.com/ameagari-no-hanaby-build-7206971/',
+ 'name': 'Ameagari no Hanaby Build 7206971'}
+2023-01-24 12:00:52,800 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '140',
+ 'link': 'https://www.skidrowreloaded.com/path-of-the-midnight-sun-v1-1-p2p/',
+ 'name': 'Path of the Midnight Sun v1.1-P2P'}
+2023-01-24 12:00:52,802 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '141',
+ 'link': 'https://www.skidrowreloaded.com/ready-or-not-v25143-early-access/',
+ 'name': 'Ready or Not v25143 Early Access'}
+2023-01-24 12:00:52,804 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '142',
+ 'link': 'https://www.skidrowreloaded.com/guilty-gear-xrd-rev-2-v20230120-goldberg/',
+ 'name': 'GUILTY GEAR Xrd REV 2 v20230120-GoldBerg'}
+2023-01-24 12:00:52,805 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '143',
+ 'link': 'https://www.skidrowreloaded.com/image-tenoke/',
+ 'name': 'Image-TENOKE'}
+2023-01-24 12:00:52,807 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '144',
+ 'link': 'https://www.skidrowreloaded.com/droid-wars-duel-tenoke/',
+ 'name': 'Droid Wars Duel-TENOKE'}
+2023-01-24 12:00:52,808 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '145',
+ 'link': 'https://www.skidrowreloaded.com/lincoln-green-tenoke/',
+ 'name': 'Lincoln Green-TENOKE'}
+2023-01-24 12:00:52,810 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '146',
+ 'link': 'https://www.skidrowreloaded.com/master-of-magic-remake-v1-06-00/',
+ 'name': 'Master of Magic Remake v1.06.00'}
+2023-01-24 12:00:52,811 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '147',
+ 'link': 'https://www.skidrowreloaded.com/system-shock-enhanced-edition-v1-2-16/',
+ 'name': 'System Shock Enhanced Edition v1.2.16'}
+2023-01-24 12:00:52,812 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '148',
+ 'link': 'https://www.skidrowreloaded.com/rune-classic-v1-10/',
+ 'name': 'Rune Classic v1.10'}
+2023-01-24 12:00:52,813 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '149',
+ 'link': 'https://www.skidrowreloaded.com/zombie-cure-lab-build-10367533/',
+ 'name': 'Zombie Cure Lab Build 10367533'}
+2023-01-24 12:00:52,814 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '150',
+ 'link': 'https://www.skidrowreloaded.com/chained-echoes-v1-05/',
+ 'name': 'Chained Echoes v1.05'}
+2023-01-24 12:00:52,815 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '151',
+ 'link': 'https://www.skidrowreloaded.com/archvale-v-1-3/',
+ 'name': 'Archvale v1.3'}
+2023-01-24 12:00:52,817 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '152',
+ 'link': 'https://www.skidrowreloaded.com/the-legend-of-kyrandia-book-one-v1-1/',
+ 'name': 'The Legend of Kyrandia Book One v1.1'}
+2023-01-24 12:00:52,818 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '153',
+ 'link': 'https://www.skidrowreloaded.com/necrosmith-v-1-3-0-280/',
+ 'name': 'Necrosmith v1.3.0.280'}
+2023-01-24 12:00:52,819 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '154',
+ 'link': 'https://www.skidrowreloaded.com/scp-5k-build-9977712/',
+ 'name': 'SCP 5K Build 9977712'}
+2023-01-24 12:00:52,820 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '155',
+ 'link': 'https://www.skidrowreloaded.com/warhammer-40000-battlesector-v1-02-43/',
+ 'name': 'Warhammer 40000 Battlesector v1.02.43'}
+2023-01-24 12:00:52,822 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '156',
+ 'link': 'https://www.skidrowreloaded.com/alaloth-champions-of-the-four-kingdoms-v20230119-gog/',
+ 'name': 'Alaloth Champions of The Four Kingdoms v20230119-GOG'}
+2023-01-24 12:00:52,823 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '157',
+ 'link': 'https://www.skidrowreloaded.com/xenonauts-2-v20-01-2023/',
+ 'name': 'Xenonauts 2 v20.01.2023'}
+2023-01-24 12:00:52,825 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '158',
+ 'link': 'https://www.skidrowreloaded.com/vendetta-mafia-wars-early-access/',
+ 'name': 'Vendetta Mafia Wars Early Access'}
+2023-01-24 12:00:52,826 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '159',
+ 'link': 'https://www.skidrowreloaded.com/darkest-dungeon-ii-v0-18-42328/',
+ 'name': 'Darkest Dungeon II v0.18.42328'}
+2023-01-24 12:00:52,828 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '160',
+ 'link': 'https://www.skidrowreloaded.com/bugsnax-v2-0-65949/',
+ 'name': 'Bugsnax v2.0.65949'}
+2023-01-24 12:00:52,829 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '161',
+ 'link': 'https://www.skidrowreloaded.com/src-sprint-robot-championship-build-7422159/',
+ 'name': 'SRC Sprint Robot Championship Build 7422159'}
+2023-01-24 12:00:52,831 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '162',
+ 'link': 'https://www.skidrowreloaded.com/insomnis-build-8322432/',
+ 'name': 'Insomnis Build 8322432'}
+2023-01-24 12:00:52,833 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '163',
+ 'link': 'https://www.skidrowreloaded.com/timberborn-v0-3-5-1/',
+ 'name': 'Timberborn v0.3.5.1'}
+2023-01-24 12:00:52,834 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '164',
+ 'link': 'https://www.skidrowreloaded.com/the-multi-medium-repack/',
+ 'name': 'The Multi Medium-Repack'}
+2023-01-24 12:00:52,835 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '165',
+ 'link': 'https://www.skidrowreloaded.com/space-accident-build-10375172/',
+ 'name': 'SPACE ACCIDENT Build 10375172'}
+2023-01-24 12:00:52,836 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '166',
+ 'link': 'https://www.skidrowreloaded.com/the-sims-4-deluxe-edition-v1-94-147-1030-repack/',
+ 'name': 'The Sims 4 Deluxe Edition v1.94.147.1030-Repack'}
+2023-01-24 12:00:52,838 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '167',
+ 'link': 'https://www.skidrowreloaded.com/estencel-repack/',
+ 'name': 'Estencel-Repack'}
+2023-01-24 12:00:52,840 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '168',
+ 'link': 'https://www.skidrowreloaded.com/ai-war-2-v5-534/',
+ 'name': 'AI War 2 v5.534'}
+2023-01-24 12:00:52,841 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '169',
+ 'link': 'https://www.skidrowreloaded.com/the-pioneers-surviving-desolation-build-10375158/',
+ 'name': 'The Pioneers Surviving Desolation Build 10375158'}
+2023-01-24 12:00:52,842 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '170',
+ 'link': 'https://www.skidrowreloaded.com/scp-087-recovered-document-early-access/',
+ 'name': 'SCP 087 Recovered Document Early Access'}
+2023-01-24 12:00:52,843 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '171',
+ 'link': 'https://www.skidrowreloaded.com/risk-of-rain-2-v1-2-4-1/',
+ 'name': 'Risk of Rain 2 v1.2.4.1'}
+2023-01-24 12:00:52,844 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '172',
+ 'link': 'https://www.skidrowreloaded.com/prison-architect-build-9937246/',
+ 'name': 'Prison Architect Build 9937246'}
+2023-01-24 12:00:52,845 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '173',
+ 'link': 'https://www.skidrowreloaded.com/lost-epic-v-1-01-7/',
+ 'name': 'Lost Epic v1.01.7'}
+2023-01-24 12:00:52,846 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '174',
+ 'link': 'https://www.skidrowreloaded.com/loot-river-v-1-1-01/',
+ 'name': 'Loot River v1.1.01'}
+2023-01-24 12:00:52,847 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '175',
+ 'link': 'https://www.skidrowreloaded.com/kingdoms-reborn-v0-106/',
+ 'name': 'Kingdoms Reborn v0.106'}
+2023-01-24 12:00:52,849 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '176',
+ 'link': 'https://www.skidrowreloaded.com/gedonia-v1-2c/',
+ 'name': 'Gedonia v1.2c'}
+2023-01-24 12:00:52,850 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '177',
+ 'link': 'https://www.skidrowreloaded.com/gatekeeper-eclipse-build-10369812/',
+ 'name': 'Gatekeeper Eclipse Build 10369812'}
+2023-01-24 12:00:52,852 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '178',
+ 'link': 'https://www.skidrowreloaded.com/dimension-drive-build7964518/',
+ 'name': 'Dimension Drive Build 7964518'}
+2023-01-24 12:00:52,853 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '179',
+ 'link': 'https://www.skidrowreloaded.com/brok-the-investigator-v1-2-8-gog/',
+ 'name': 'BROK The InvestiGator v1.2.8-GOG'}
+2023-01-24 12:00:52,854 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '180',
+ 'link': 'https://www.skidrowreloaded.com/wtc-relentless-protagonist-build-10308647/',
+ 'name': 'WTC Relentless Protagonist Build 10308647'}
+2023-01-24 12:00:52,856 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '181',
+ 'link': 'https://www.skidrowreloaded.com/vampire-survivors-v1-3-100/',
+ 'name': 'Vampire Survivors v1.3.100'}
+2023-01-24 12:00:52,857 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '182',
+ 'link': 'https://www.skidrowreloaded.com/uno-build-10181864-repack/',
+ 'name': 'UNO Build 10181864-Repack'}
+2023-01-24 12:00:52,859 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '183',
+ 'link': 'https://www.skidrowreloaded.com/tiny-metal-full-metal-rumble-build-7322003/',
+ 'name': 'TINY METAL FULL METAL RUMBLE Build 7322003'}
+2023-01-24 12:00:52,861 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '184',
+ 'link': 'https://www.skidrowreloaded.com/super-cane-magic-zero-build-7603151/',
+ 'name': 'Super Cane Magic ZERO Build 7603151'}
+2023-01-24 12:00:52,862 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '185',
+ 'link': 'https://www.skidrowreloaded.com/kynseed-v1-0-1-9494/',
+ 'name': 'Kynseed v1.0.1.9494'}
+2023-01-24 12:00:52,863 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '186',
+ 'link': 'https://www.skidrowreloaded.com/filthy-animals-heist-simulator-build-10369032/',
+ 'name': 'Filthy Animals Heist Simulator Build 10369032'}
+2023-01-24 12:00:52,865 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '187',
+ 'link': 'https://www.skidrowreloaded.com/dark-quest-board-game-v0-8/',
+ 'name': 'Dark Quest Board Game v0.8'}
+2023-01-24 12:00:52,867 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '188',
+ 'link': 'https://www.skidrowreloaded.com/cult-of-the-lamb-v1-1-3/',
+ 'name': 'Cult of the Lamb v1.1.3'}
+2023-01-24 12:00:52,868 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '189',
+ 'link': 'https://www.skidrowreloaded.com/cant-drive-this-build-6402082/',
+ 'name': 'Cant Drive This Build 6402082'}
+2023-01-24 12:00:52,869 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '190',
+ 'link': 'https://www.skidrowreloaded.com/brick-rigs-build-10358584/',
+ 'name': 'Brick Rigs Build 10358584'}
+2023-01-24 12:00:52,871 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '191',
+ 'link': 'https://www.skidrowreloaded.com/vermitron-build-7165624/',
+ 'name': 'Vermitron Build 7165624'}
+2023-01-24 12:00:52,873 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '192',
+ 'link': 'https://www.skidrowreloaded.com/travellers-rest-v-0-5-4-8/',
+ 'name': 'Travellers Rest v0.5.4.8'}
+2023-01-24 12:00:52,874 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '193',
+ 'link': 'https://www.skidrowreloaded.com/towaga-among-shadowsbuild-7208351/',
+ 'name': 'Towaga Among Shadows Build 7208351'}
+2023-01-24 12:00:52,875 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '194',
+ 'link': 'https://www.skidrowreloaded.com/songs-of-syx-v0-63-34/',
+ 'name': 'Songs of Syx v0.63.34'}
+2023-01-24 12:00:52,876 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '195',
+ 'link': 'https://www.skidrowreloaded.com/software-inc-v1-4-11/',
+ 'name': 'Software Inc v1.4.11'}
+2023-01-24 12:00:52,878 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '196',
+ 'link': 'https://www.skidrowreloaded.com/sneak-in-marble-shooter-game-build-10291083/',
+ 'name': 'Sneak In Marble shooter game Build 10291083'}
+2023-01-24 12:00:52,879 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '197',
+ 'link': 'https://www.skidrowreloaded.com/shotgun-king-the-final-checkmate-v1-37-gog/',
+ 'name': 'Shotgun King The Final Checkmate v1.37-GOG'}
+2023-01-24 12:00:52,881 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '198',
+ 'link': 'https://www.skidrowreloaded.com/power-of-ten-v1-0-8-gog/',
+ 'name': 'Power of Ten v1.0.8-GOG'}
+2023-01-24 12:00:52,883 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '199',
+ 'link': 'https://www.skidrowreloaded.com/people-playground-v1-26-4-2/',
+ 'name': 'People Playground v1.26.4'}
+2023-01-24 12:00:52,884 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '200',
+ 'link': 'https://www.skidrowreloaded.com/ninja-stealth-build-8890041/',
+ 'name': 'Ninja Stealth Build 8890041'}
+2023-01-24 12:00:52,885 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '201',
+ 'link': 'https://www.skidrowreloaded.com/ninja-stealth-3-build-8866191/',
+ 'name': 'Ninja Stealth 3 Build 8866191'}
+2023-01-24 12:00:52,886 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '202',
+ 'link': 'https://www.skidrowreloaded.com/ninja-stealth-2-build-8866090/',
+ 'name': 'Ninja Stealth 2 Build 8866090'}
+2023-01-24 12:00:52,888 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '203',
+ 'link': 'https://www.skidrowreloaded.com/moons-of-ardan-v0-9-4-0/',
+ 'name': 'Moons of Ardan v0.9.4.0'}
+2023-01-24 12:00:52,890 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '204',
+ 'link': 'https://www.skidrowreloaded.com/kungfu-cowboy-build-7163451/',
+ 'name': 'Kungfu Cowboy Build 7163451'}
+2023-01-24 12:00:52,891 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '205',
+ 'link': 'https://www.skidrowreloaded.com/house-sitter-build-5246453/',
+ 'name': 'House Sitter Build 5246453'}
+2023-01-24 12:00:52,892 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '206',
+ 'link': 'https://www.skidrowreloaded.com/haven-park-v1-2-3/',
+ 'name': 'Haven Park v1.2.3'}
+2023-01-24 12:00:52,893 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '207',
+ 'link': 'https://www.skidrowreloaded.com/grey-hack-v0-8-4519a/',
+ 'name': 'Grey Hack v0.8.4519a'}
+2023-01-24 12:00:52,895 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '208',
+ 'link': 'https://www.skidrowreloaded.com/gloomwood-build-10372400/',
+ 'name': 'Gloomwood Build 10372400'}
+2023-01-24 12:00:52,896 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '209',
+ 'link': 'https://www.skidrowreloaded.com/gladium-build-10299469/',
+ 'name': 'GLADIUM Build 10299469'}
+2023-01-24 12:00:52,898 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '210',
+ 'link': 'https://www.skidrowreloaded.com/get-a-grip-chip-build-9130953/',
+ 'name': 'Get A Grip Chip Build 9130953'}
+2023-01-24 12:00:52,899 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '211',
+ 'link': 'https://www.skidrowreloaded.com/flotilla-build7110918/',
+ 'name': 'Flotilla Build 7110918'}
+2023-01-24 12:00:52,900 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '212',
+ 'link': 'https://www.skidrowreloaded.com/dominions-5-warriors-of-the-faith-v5-58/',
+ 'name': 'Dominions 5 Warriors of the Faith v5.58'}
+2023-01-24 12:00:52,901 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '213',
+ 'link': 'https://www.skidrowreloaded.com/carlos-the-taco-build-10022069/',
+ 'name': 'Carlos the Taco Build 10022069'}
+2023-01-24 12:00:52,902 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '214',
+ 'link': 'https://www.skidrowreloaded.com/booth-build-7866578/',
+ 'name': 'Booth Build 7866578'}
+2023-01-24 12:00:52,903 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '215',
+ 'link': 'https://www.skidrowreloaded.com/anodyne-2-return-to-dust-build6194140/',
+ 'name': 'Anodyne 2 Return to Dust Build 6194140'}
+2023-01-24 12:00:52,905 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '216',
+ 'link': 'https://www.skidrowreloaded.com/ancient-planet-build-10349335/',
+ 'name': 'Ancient Planet Build 10349335'}
+2023-01-24 12:00:52,907 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '217',
+ 'link': 'https://www.skidrowreloaded.com/alexeys-winter-night-adventure-build-10373764/',
+ 'name': 'Alexeys Winter Night Adventure Build 10373764'}
+2023-01-24 12:00:52,908 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '218',
+ 'link': 'https://www.skidrowreloaded.com/bram-the-toymaker-tenoke/',
+ 'name': 'Bram The Toymaker-TENOKE'}
+2023-01-24 12:00:52,909 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '219',
+ 'link': 'https://www.skidrowreloaded.com/maiz-tenoke/',
+ 'name': 'Maiz-TENOKE'}
+2023-01-24 12:00:52,910 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '220',
+ 'link': 'https://www.skidrowreloaded.com/seven-spirits-tenoke/',
+ 'name': 'Seven Spirits-TENOKE'}
+2023-01-24 12:00:52,911 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '221',
+ 'link': 'https://www.skidrowreloaded.com/sudden-market-tenoke/',
+ 'name': 'Sudden Market-TENOKE'}
+2023-01-24 12:00:52,913 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '222',
+ 'link': 'https://www.skidrowreloaded.com/isle-of-pan-repack/',
+ 'name': 'Isle Of Pan-Repack'}
+2023-01-24 12:00:52,914 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '223',
+ 'link': 'https://www.skidrowreloaded.com/the-riftbreaker-v1-34675/',
+ 'name': 'The Riftbreaker v1.34675'}
+2023-01-24 12:00:52,915 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '224',
+ 'link': 'https://www.skidrowreloaded.com/the-long-dark-v2-06-106075/',
+ 'name': 'The Long Dark v2.06.106075'}
+2023-01-24 12:00:52,916 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '225',
+ 'link': 'https://www.skidrowreloaded.com/the-dungeon-of-naheulbeuk-the-amulet-of-chaos-v1-5-992/',
+ 'name': 'The Dungeon of Naheulbeuk The Amulet of Chaos v1.5.992'}
+2023-01-24 12:00:52,917 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '226',
+ 'link': 'https://www.skidrowreloaded.com/september-7th-build-10341496/',
+ 'name': 'September 7th Build 10341496'}
+2023-01-24 12:00:52,918 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '227',
+ 'link': 'https://www.skidrowreloaded.com/metal-hellsinger-build-10283987/',
+ 'name': 'Metal Hellsinger Build 10283987'}
+2023-01-24 12:00:52,920 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '228',
+ 'link': 'https://www.skidrowreloaded.com/industria-build-9823374/',
+ 'name': 'INDUSTRIA Build 9823374'}
+2023-01-24 12:00:52,922 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '229',
+ 'link': 'https://www.skidrowreloaded.com/escape-the-backrooms-build-10364467/',
+ 'name': 'Escape the Backrooms Build 10364467'}
+2023-01-24 12:00:52,923 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '230',
+ 'link': 'https://www.skidrowreloaded.com/sailing-era-build-10347061/',
+ 'name': 'Sailing Era Build 10347061'}
+2023-01-24 12:00:52,925 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '231',
+ 'link': 'https://www.skidrowreloaded.com/2032-a-new-threat-repack/',
+ 'name': '2032 A New Threat-Repack'}
+2023-01-24 12:00:52,927 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '232',
+ 'link': 'https://www.skidrowreloaded.com/the-greatest-penguin-heist-of-all-time-build-10315367/',
+ 'name': 'The Greatest Penguin Heist of All Time Build 10315367'}
+2023-01-24 12:00:52,928 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '233',
+ 'link': 'https://www.skidrowreloaded.com/the-bad-kids-v20230120/',
+ 'name': 'The Bad Kids v20230120'}
+2023-01-24 12:00:52,929 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '234',
+ 'link': 'https://www.skidrowreloaded.com/subnautica-below-zero-v19-01-2023/',
+ 'name': 'Subnautica Below Zero v19.01.2023'}
+2023-01-24 12:00:52,931 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '235',
+ 'link': 'https://www.skidrowreloaded.com/sadness-of-valor-repack/',
+ 'name': 'Sadness Of Valor-Repack'}
+2023-01-24 12:00:52,932 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '236',
+ 'link': 'https://www.skidrowreloaded.com/lost-empire-2977-repack/',
+ 'name': 'Lost Empire 2977-Repack'}
+2023-01-24 12:00:52,934 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '237',
+ 'link': 'https://www.skidrowreloaded.com/hellish-quart-v2023-01-20-0/',
+ 'name': 'Hellish Quart v2023.01.20.0'}
+2023-01-24 12:00:52,935 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '238',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-downpour-razor1911/',
+ 'name': 'Rain World Downpour-Razor1911'}
+2023-01-24 12:00:52,936 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '239',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-downpour-gog/',
+ 'name': 'Rain World Downpour-GOG'}
+2023-01-24 12:00:52,937 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '240',
+ 'link': 'https://www.skidrowreloaded.com/the-pioneers-surviving-desolation-early-access/',
+ 'name': 'The Pioneers Surviving Desolation Early Access'}
+2023-01-24 12:00:52,939 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '241',
+ 'link': 'https://www.skidrowreloaded.com/2112td-tower-defense-survival-goldberg/',
+ 'name': '2112TD Tower Defense Survival-GoldBerg'}
+2023-01-24 12:00:52,940 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '242',
+ 'link': 'https://www.skidrowreloaded.com/project-warlock-ii-v0-2-7-78/',
+ 'name': 'Project Warlock II v0.2.7.78'}
+2023-01-24 12:00:52,941 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '243',
+ 'link': 'https://www.skidrowreloaded.com/warm-snow-build-10360564/',
+ 'name': 'Warm Snow Build 10360564'}
+2023-01-24 12:00:52,943 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '244',
+ 'link': 'https://www.skidrowreloaded.com/utopia-colony-build-10363960/',
+ 'name': 'Utopia Colony Build 10363960'}
+2023-01-24 12:00:52,944 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '245',
+ 'link': 'https://www.skidrowreloaded.com/gordian-quest-v1-2-12-gog/',
+ 'name': 'Gordian Quest v1.2.12-GOG'}
+2023-01-24 12:00:52,946 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '246',
+ 'link': 'https://www.skidrowreloaded.com/garbage-build-7254133/',
+ 'name': 'Garbage Build 7254133'}
+2023-01-24 12:00:52,947 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '247',
+ 'link': 'https://www.skidrowreloaded.com/the-legend-of-heroes-trails-from-zero-v1-4-4-dinobytes/',
+ 'name': 'The Legend of Heroes Trails from Zero v1.4.4-DINOByTES'}
+2023-01-24 12:00:52,948 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '248',
+ 'link': 'https://www.skidrowreloaded.com/winter-resort-simulator-season-2-v1-24/',
+ 'name': 'Winter Resort Simulator Season 2 v1.24'}
+2023-01-24 12:00:52,950 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '249',
+ 'link': 'https://www.skidrowreloaded.com/warhammer-40000-gladius-relics-of-war-v1-11-01-00/',
+ 'name': 'Warhammer 40000 Gladius Relics of War v1.11.01.00'}
+2023-01-24 12:00:52,952 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '250',
+ 'link': 'https://www.skidrowreloaded.com/tortuga-a-pirates-tale-repack/',
+ 'name': 'Tortuga A Pirates Tale-Repack'}
+2023-01-24 12:00:52,956 Filtered offsite request to 'www.skidrowreloaded.com': <GET https://www.skidrowreloaded.com/pc/?lcp_page1=2#lcp_instance_1>
+2023-01-24 12:00:52,960 Closing spider (finished)
+2023-01-24 12:00:52,961 Stored json feed (250 items) in: /home/sad/PycharmProject/rest/files/skidow.json
+2023-01-24 12:00:52,961 Dumping Scrapy stats:
+{'downloader/request_bytes': 459,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 23069,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 0.6642,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 1, 24, 10, 0, 52, 960865),
+ 'httpcompression/response_bytes': 147394,
+ 'httpcompression/response_count': 2,
+ 'item_scraped_count': 250,
+ 'log_count/DEBUG': 256,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 71143424,
+ 'memusage/startup': 71143424,
+ 'offsite/domains': 1,
+ 'offsite/filtered': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 1, 24, 10, 0, 52, 296665)}
+2023-01-24 12:00:52,962 Spider closed (finished)
+2023-01-24 12:01:14,603 Scrapy 2.7.1 started (bot: scrapy_skidrow)
+2023-01-24 12:01:14,605 Versions: lxml 4.9.2.0, libxml2 2.9.14, cssselect 1.2.0, parsel 1.7.0, w3lib 2.1.1, Twisted 22.10.0, Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0], pyOpenSSL 23.0.0 (OpenSSL 3.0.7 1 Nov 2022), cryptography 39.0.0, Platform Linux-5.15.0-41-generic-x86_64-with-glibc2.35
+2023-01-24 12:01:18,793 Scrapy 2.7.1 started (bot: scrapy_skidrow)
+2023-01-24 12:01:18,794 Versions: lxml 4.9.2.0, libxml2 2.9.14, cssselect 1.2.0, parsel 1.7.0, w3lib 2.1.1, Twisted 22.10.0, Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0], pyOpenSSL 23.0.0 (OpenSSL 3.0.7 1 Nov 2022), cryptography 39.0.0, Platform Linux-5.15.0-41-generic-x86_64-with-glibc2.35
+2023-01-24 12:01:18,797 Overridden settings:
+{'BOT_NAME': 'scrapy_skidrow',
+ 'NEWSPIDER_MODULE': 'scrapy_skidrow.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scrapy_skidrow.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2023-01-24 12:01:18,798 Using selector: EpollSelector
+2023-01-24 12:01:18,798 Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-01-24 12:01:18,798 Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+2023-01-24 12:01:18,809 Telnet Password: 4f4ca2a6013a9159
+2023-01-24 12:01:18,825 Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2023-01-24 12:01:18,916 Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-01-24 12:01:18,918 Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-01-24 12:01:18,919 Enabled item pipelines:
+[]
+2023-01-24 12:01:18,919 Spider opened
+2023-01-24 12:01:18,999 Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-01-24 12:01:19,000 /home/sad/PycharmProject/rest/venv/lib/python3.10/site-packages/scrapy/spidermiddlewares/offsite.py:71: URLWarning: allowed_domains accepts only domains, not URLs. Ignoring URL entry https://www.skidrowreloaded.com/pc/ in allowed_domains.
+  warnings.warn(message, URLWarning)
+
+2023-01-24 12:01:19,001 Telnet console listening on 127.0.0.1:6030
+2023-01-24 12:01:19,178 Crawled (200) <GET https://www.skidrowreloaded.com/robots.txt> (referer: None)
+2023-01-24 12:01:19,251 Crawled (200) <GET https://www.skidrowreloaded.com/pc/> (referer: None)
+2023-01-24 12:01:19,364 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '1',
+ 'link': 'https://www.skidrowreloaded.com/tangledeep-v1-53k/',
+ 'name': 'Tangledeep v1.53k'}
+2023-01-24 12:01:19,365 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '2',
+ 'link': 'https://www.skidrowreloaded.com/sylphy-and-the-sleepless-island-gog/',
+ 'name': 'Sylphy and the Sleepless Island-GOG'}
+2023-01-24 12:01:19,366 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '3',
+ 'link': 'https://www.skidrowreloaded.com/seven-spirits-build-10367501-repack/',
+ 'name': 'Seven Spirits Build 10367501-Repack'}
+2023-01-24 12:01:19,368 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '4',
+ 'link': 'https://www.skidrowreloaded.com/gross-v20230117/',
+ 'name': 'GROSS v20230117'}
+2023-01-24 12:01:19,370 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '5',
+ 'link': 'https://www.skidrowreloaded.com/motor-town-v0-6-15-1/',
+ 'name': 'Motor Town v0.6.15.1'}
+2023-01-24 12:01:19,372 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '6',
+ 'link': 'https://www.skidrowreloaded.com/doraemon-story-of-seasons-fotgk-build-20230118/',
+ 'name': 'DORAEMON STORY OF SEASONS FotGK Build 20230118'}
+2023-01-24 12:01:19,374 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '7',
+ 'link': 'https://www.skidrowreloaded.com/kingdom-two-crowns-v1-1-18/',
+ 'name': 'Kingdom Two Crowns v1.1.18'}
+2023-01-24 12:01:19,375 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '8',
+ 'link': 'https://www.skidrowreloaded.com/apostle-gog/',
+ 'name': 'Apostle-GOG'}
+2023-01-24 12:01:19,377 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '9',
+ 'link': 'https://www.skidrowreloaded.com/7-girls-war-gog/',
+ 'name': '7 Girls War-GOG'}
+2023-01-24 12:01:19,379 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '10',
+ 'link': 'https://www.skidrowreloaded.com/zombie-cure-lab-v0-17-3/',
+ 'name': 'Zombie Cure Lab v0.17.3'}
+2023-01-24 12:01:19,381 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '11',
+ 'link': 'https://www.skidrowreloaded.com/underdungeon-v1-1-hotfix-2/',
+ 'name': 'UnderDungeon v1.1.HotFix.2'}
+2023-01-24 12:01:19,382 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '12',
+ 'link': 'https://www.skidrowreloaded.com/terraformers-v0-9-52/',
+ 'name': 'Terraformers v0.9.52'}
+2023-01-24 12:01:19,383 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '13',
+ 'link': 'https://www.skidrowreloaded.com/punch-a-bunch-v20230122/',
+ 'name': 'Punch A Bunch v20230122'}
+2023-01-24 12:01:19,384 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '14',
+ 'link': 'https://www.skidrowreloaded.com/obscurite-magie-the-city-of-sin-gog/',
+ 'name': 'Obscurite Magie The City of Sin-GOG'}
+2023-01-24 12:01:19,385 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '15',
+ 'link': 'https://www.skidrowreloaded.com/magical-valkyrie-lyristia-gog/',
+ 'name': 'Magical Valkyrie Lyristia-GOG'}
+2023-01-24 12:01:19,386 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '16',
+ 'link': 'https://www.skidrowreloaded.com/intravenous-v1-4-0-3-gog/',
+ 'name': 'Intravenous v1.4.0.3-GOG'}
+2023-01-24 12:01:19,388 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '17',
+ 'link': 'https://www.skidrowreloaded.com/grand-cross-renovation-v1-20g/',
+ 'name': 'GRAND CROSS ReNOVATION v1.20g'}
+2023-01-24 12:01:19,390 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '18',
+ 'link': 'https://www.skidrowreloaded.com/evening-starter-gog/',
+ 'name': 'Evening Starter-GOG'}
+2023-01-24 12:01:19,391 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '19',
+ 'link': 'https://www.skidrowreloaded.com/dwerve-v1-1-6/',
+ 'name': 'Dwerve v1.1.6'}
+2023-01-24 12:01:19,392 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '20',
+ 'link': 'https://www.skidrowreloaded.com/coralina-v20230121/',
+ 'name': 'Coralina v20230121'}
+2023-01-24 12:01:19,393 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '21',
+ 'link': 'https://www.skidrowreloaded.com/castle-cardians-v0-170001/',
+ 'name': 'Castle Cardians v0.170001'}
+2023-01-24 12:01:19,394 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '22',
+ 'link': 'https://www.skidrowreloaded.com/ariels-daily-grind-gog/',
+ 'name': 'Ariels Daily Grind-GOG'}
+2023-01-24 12:01:19,396 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '23',
+ 'link': 'https://www.skidrowreloaded.com/undead-horde-2-necropolis-v0-9-1-15/',
+ 'name': 'Undead Horde 2 Necropolis v0.9.1.15'}
+2023-01-24 12:01:19,397 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '24',
+ 'link': 'https://www.skidrowreloaded.com/the-crackpet-show-v1-1-4/',
+ 'name': 'The Crackpet Show v1.1.4'}
+2023-01-24 12:01:19,399 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '25',
+ 'link': 'https://www.skidrowreloaded.com/tfm-the-first-men-v0-6-0/',
+ 'name': 'TFM The First Men v0.6.0'}
+2023-01-24 12:01:19,400 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '26',
+ 'link': 'https://www.skidrowreloaded.com/terraforming-mars-v2-0000-1-12595-gog/',
+ 'name': 'Terraforming Mars v2.0000.1.12595-GOG'}
+2023-01-24 12:01:19,401 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '27',
+ 'link': 'https://www.skidrowreloaded.com/terraforming-mars-v2-0-1/',
+ 'name': 'Terraforming Mars v2.0.1'}
+2023-01-24 12:01:19,402 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '28',
+ 'link': 'https://www.skidrowreloaded.com/survivalist-v74/',
+ 'name': 'Survivalist v74'}
+2023-01-24 12:01:19,404 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '29',
+ 'link': 'https://www.skidrowreloaded.com/stormworks-build-and-rescue-v1-6-12/',
+ 'name': 'Stormworks Build and Rescue v1.6.12'}
+2023-01-24 12:01:19,405 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '30',
+ 'link': 'https://www.skidrowreloaded.com/shotgun-king-the-final-checkmate-v1-37/',
+ 'name': 'Shotgun King The Final Checkmate v1.37'}
+2023-01-24 12:01:19,407 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '31',
+ 'link': 'https://www.skidrowreloaded.com/ruinarch-v0-13/',
+ 'name': 'Ruinarch v0.13'}
+2023-01-24 12:01:19,409 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '32',
+ 'link': 'https://www.skidrowreloaded.com/revita-v1-0-4/',
+ 'name': 'Revita v1.0.4'}
+2023-01-24 12:01:19,411 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '33',
+ 'link': 'https://www.skidrowreloaded.com/punch-a-bunch-repack/',
+ 'name': 'Punch A Bunch-Repack'}
+2023-01-24 12:01:19,413 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '34',
+ 'link': 'https://www.skidrowreloaded.com/planet-centauri-v0-13-8b/',
+ 'name': 'Planet Centauri v0.13.8b'}
+2023-01-24 12:01:19,415 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '35',
+ 'link': 'https://www.skidrowreloaded.com/people-playground-build-20230122/',
+ 'name': 'People Playground Build 20230122'}
+2023-01-24 12:01:19,417 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '36',
+ 'link': 'https://www.skidrowreloaded.com/paleon-alpha-v1-15-2/',
+ 'name': 'Paleon Alpha v1.15.2'}
+2023-01-24 12:01:19,419 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '37',
+ 'link': 'https://www.skidrowreloaded.com/midnights-of-desperado-v1-9-4/',
+ 'name': 'MidNights of Desperado v1.9.4'}
+2023-01-24 12:01:19,421 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '38',
+ 'link': 'https://www.skidrowreloaded.com/mad-games-tycoon-2-v2023-01-23b/',
+ 'name': 'Mad Games Tycoon 2 v2023.01.23b'}
+2023-01-24 12:01:19,423 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '39',
+ 'link': 'https://www.skidrowreloaded.com/luck-be-a-landlord-v1-0-23/',
+ 'name': 'Luck be a Landlord v1.0.23'}
+2023-01-24 12:01:19,424 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '40',
+ 'link': 'https://www.skidrowreloaded.com/last-wood-v1-0-0f9/',
+ 'name': 'Last Wood v1.0.0f9'}
+2023-01-24 12:01:19,426 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '41',
+ 'link': 'https://www.skidrowreloaded.com/juno-new-origins-v1-02/',
+ 'name': 'Juno New Origins v1.02'}
+2023-01-24 12:01:19,429 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '42',
+ 'link': 'https://www.skidrowreloaded.com/increlution-build-20230120/',
+ 'name': 'Increlution Build 20230120'}
+2023-01-24 12:01:19,431 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '43',
+ 'link': 'https://www.skidrowreloaded.com/haiku-the-robot-v1-1-4/',
+ 'name': 'Haiku the Robot v1.1.4'}
+2023-01-24 12:01:19,433 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '44',
+ 'link': 'https://www.skidrowreloaded.com/fireworks-mania-v2023-1-2/',
+ 'name': 'Fireworks Mania v2023.1.2'}
+2023-01-24 12:01:19,435 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '45',
+ 'link': 'https://www.skidrowreloaded.com/equilinox-v1-7-2/',
+ 'name': 'Equilinox v1.7.2'}
+2023-01-24 12:01:19,437 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '46',
+ 'link': 'https://www.skidrowreloaded.com/colt-canyon-v1-2-1-3/',
+ 'name': 'Colt Canyon v1.2.1.3'}
+2023-01-24 12:01:19,439 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '47',
+ 'link': 'https://www.skidrowreloaded.com/boneraiser-minions-v23-1/',
+ 'name': 'Boneraiser Minions v23.1'}
+2023-01-24 12:01:19,441 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '48',
+ 'link': 'https://www.skidrowreloaded.com/birth-of-shadows-v1-9-10-12/',
+ 'name': 'Birth of Shadows v1.9.10.12'}
+2023-01-24 12:01:19,443 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '49',
+ 'link': 'https://www.skidrowreloaded.com/airships-conquer-the-skies-v1-1-2-1-gog/',
+ 'name': 'Airships Conquer the Skies v1.1.2.1-GOG'}
+2023-01-24 12:01:19,445 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '50',
+ 'link': 'https://www.skidrowreloaded.com/airships-conquer-the-skies-v1-1-2-1/',
+ 'name': 'Airships Conquer the Skies v1.1.2.1'}
+2023-01-24 12:01:19,447 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '51',
+ 'link': 'https://www.skidrowreloaded.com/a-space-for-the-unbound-deluxe-edition-repack/',
+ 'name': 'A Space for the Unbound Deluxe Edition-Repack'}
+2023-01-24 12:01:19,452 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '52',
+ 'link': 'https://www.skidrowreloaded.com/the-forgotten-tapes-analog-nightmares-tenoke/',
+ 'name': 'The Forgotten Tapes Analog Nightmares-TENOKE'}
+2023-01-24 12:01:19,456 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '53',
+ 'link': 'https://www.skidrowreloaded.com/sapper-defuse-the-bomb-simulator-tenoke/',
+ 'name': 'Sapper Defuse The Bomb Simulator-TENOKE'}
+2023-01-24 12:01:19,458 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '54',
+ 'link': 'https://www.skidrowreloaded.com/asfalia-anger-tenoke/',
+ 'name': 'Asfalia Anger-TENOKE'}
+2023-01-24 12:01:19,461 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '55',
+ 'link': 'https://www.skidrowreloaded.com/deep-in-the-snowy-night-tenoke/',
+ 'name': 'Deep In The Snowy Night-TENOKE'}
+2023-01-24 12:01:19,463 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '56',
+ 'link': 'https://www.skidrowreloaded.com/colossal-cave-tenoke/',
+ 'name': 'Colossal Cave-TENOKE'}
+2023-01-24 12:01:19,465 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '57',
+ 'link': 'https://www.skidrowreloaded.com/project-warlock-claymore-goldberg/',
+ 'name': 'Project Warlock Claymore-GoldBerg'}
+2023-01-24 12:01:19,467 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '58',
+ 'link': 'https://www.skidrowreloaded.com/dead-by-daylight-ultimate-edition-v4-4-2-0xdeadc0de/',
+ 'name': 'Dead by Daylight Ultimate Edition v4.4.2-0xdeadc0de'}
+2023-01-24 12:01:19,469 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '59',
+ 'link': 'https://www.skidrowreloaded.com/warno-oudinot-early-access/',
+ 'name': 'WARNO OUDINOT Early Access'}
+2023-01-24 12:01:19,472 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '60',
+ 'link': 'https://www.skidrowreloaded.com/siege-survival-gloria-victis-v20230119-p2p/',
+ 'name': 'Siege Survival Gloria Victis v20230119-P2P'}
+2023-01-24 12:01:19,474 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '61',
+ 'link': 'https://www.skidrowreloaded.com/jianghu-survivors-early-access/',
+ 'name': 'Jianghu Survivors Early Access'}
+2023-01-24 12:01:19,476 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '62',
+ 'link': 'https://www.skidrowreloaded.com/commonhood-v1-1-1-6-goldberg/',
+ 'name': 'Commonhood v1.1.1.6-GoldBerg'}
+2023-01-24 12:01:19,477 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '63',
+ 'link': 'https://www.skidrowreloaded.com/aquatico-v1-003-4-goldberg/',
+ 'name': 'Aquatico v1.003.4-GoldBerg'}
+2023-01-24 12:01:19,479 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '64',
+ 'link': 'https://www.skidrowreloaded.com/kingdom-two-crowns-lost-islands-goldberg/',
+ 'name': 'Kingdom Two Crowns Lost Islands-GoldBerg'}
+2023-01-24 12:01:19,482 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '65',
+ 'link': 'https://www.skidrowreloaded.com/acolony-early-access/',
+ 'name': 'AColony Early Access'}
+2023-01-24 12:01:19,485 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '66',
+ 'link': 'https://www.skidrowreloaded.com/voxel-tycoon-passengers-2-0-early-access/',
+ 'name': 'Voxel Tycoon Passengers 2.0 Early Access'}
+2023-01-24 12:01:19,488 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '67',
+ 'link': 'https://www.skidrowreloaded.com/flotsam-the-botanist-early-access/',
+ 'name': 'Flotsam The Botanist Early Access'}
+2023-01-24 12:01:19,490 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '68',
+ 'link': 'https://www.skidrowreloaded.com/green-hell-v2-4-0-p2p/',
+ 'name': 'Green Hell v2.4.0-P2P'}
+2023-01-24 12:01:19,492 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '69',
+ 'link': 'https://www.skidrowreloaded.com/ultimate-fishing-simulator-2-build-10270602/',
+ 'name': 'Ultimate Fishing Simulator 2 Build 10270602'}
+2023-01-24 12:01:19,495 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '70',
+ 'link': 'https://www.skidrowreloaded.com/sid-meiers-civilization-vi-platinum-edition-v1-0-12-31-repack/',
+ 'name': 'Sid Meiers Civilization VI Platinum Edition v1.0.12.31-Repack'}
+2023-01-24 12:01:19,500 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '71',
+ 'link': 'https://www.skidrowreloaded.com/escape-the-backrooms-v22-01-2023/',
+ 'name': 'Escape the Backrooms v22.01.2023'}
+2023-01-24 12:01:19,505 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '72',
+ 'link': 'https://www.skidrowreloaded.com/automation-the-car-company-tycoon-game-build-10287257/',
+ 'name': 'Automation The Car Company Tycoon Game Build 10287257'}
+2023-01-24 12:01:19,508 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '73',
+ 'link': 'https://www.skidrowreloaded.com/sbox-build-10376186/',
+ 'name': 'S&Box Build 10376186'}
+2023-01-24 12:01:19,510 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '74',
+ 'link': 'https://www.skidrowreloaded.com/deadstep-build-9748602/',
+ 'name': 'Deadstep Build 9748602'}
+2023-01-24 12:01:19,513 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '75',
+ 'link': 'https://www.skidrowreloaded.com/hellish-quart-v0-3061/',
+ 'name': 'Hellish Quart v0.3061'}
+2023-01-24 12:01:19,516 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '76',
+ 'link': 'https://www.skidrowreloaded.com/overdrift-festival-build-10326827/',
+ 'name': 'OverDrift Festival Build 10326827'}
+2023-01-24 12:01:19,518 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '77',
+ 'link': 'https://www.skidrowreloaded.com/element-td-2-build-10256873/',
+ 'name': 'Element TD 2 Build 10256873'}
+2023-01-24 12:01:19,521 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '78',
+ 'link': 'https://www.skidrowreloaded.com/cygnus-enterprises-build-10348314/',
+ 'name': 'Cygnus Enterprises Build 10348314'}
+2023-01-24 12:01:19,524 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '79',
+ 'link': 'https://www.skidrowreloaded.com/ultimate-fishing-simulator-build-10326742/',
+ 'name': 'Ultimate Fishing Simulator Build 10326742'}
+2023-01-24 12:01:19,526 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '80',
+ 'link': 'https://www.skidrowreloaded.com/the-pathless-build-7169615/',
+ 'name': 'The Pathless Build 7169615'}
+2023-01-24 12:01:19,527 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '81',
+ 'link': 'https://www.skidrowreloaded.com/the-drone-racing-league-simulator-build-8906714/',
+ 'name': 'The Drone Racing League Simulator Build 8906714'}
+2023-01-24 12:01:19,530 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '82',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-build-10375941/',
+ 'name': 'Rain World Build 10375941'}
+2023-01-24 12:01:19,532 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '83',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-v1-9-02/',
+ 'name': 'Rain World v1.9.02'}
+2023-01-24 12:01:19,534 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '84',
+ 'link': 'https://www.skidrowreloaded.com/project-gunship-v1-0-0-5/',
+ 'name': 'Project Gunship v1.0.0.5'}
+2023-01-24 12:01:19,537 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '85',
+ 'link': 'https://www.skidrowreloaded.com/avernus-repack/',
+ 'name': 'Avernus-Repack'}
+2023-01-24 12:01:19,539 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '86',
+ 'link': 'https://www.skidrowreloaded.com/sailing-era-v20230123-p2p/',
+ 'name': 'Sailing Era v20230123-P2P'}
+2023-01-24 12:01:19,541 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '87',
+ 'link': 'https://www.skidrowreloaded.com/the-bad-kids-v20230123-p2p/',
+ 'name': 'The Bad Kids v20230123-P2P'}
+2023-01-24 12:01:19,542 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '88',
+ 'link': 'https://www.skidrowreloaded.com/september-7th-v20230122-p2p/',
+ 'name': 'September 7th v20230122-P2P'}
+2023-01-24 12:01:19,544 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '89',
+ 'link': 'https://www.skidrowreloaded.com/farmers-life-v0-8-51/',
+ 'name': 'Farmers Life v0.8.51'}
+2023-01-24 12:01:19,546 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '90',
+ 'link': 'https://www.skidrowreloaded.com/project-zomboid-build10105824/',
+ 'name': 'Project Zomboid Build 10105824'}
+2023-01-24 12:01:19,548 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '91',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-world-downpour-repack/',
+ 'name': 'Rain World World Downpour-Repack'}
+2023-01-24 12:01:19,549 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '92',
+ 'link': 'https://www.skidrowreloaded.com/astro-colony-build-10374704/',
+ 'name': 'Astro Colony Build 10374704'}
+2023-01-24 12:01:19,551 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '93',
+ 'link': 'https://www.skidrowreloaded.com/against-the-storm-v0-42-2r-gog/',
+ 'name': 'Against the Storm v0.42.2r-GOG'}
+2023-01-24 12:01:19,553 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '94',
+ 'link': 'https://www.skidrowreloaded.com/ultimate-admiral-dreadnoughts-v1-1/',
+ 'name': 'Ultimate Admiral Dreadnoughts v1.1'}
+2023-01-24 12:01:19,556 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '95',
+ 'link': 'https://www.skidrowreloaded.com/trials-of-wilderness-v4-9-3/',
+ 'name': 'Trials of Wilderness v4.9.3'}
+2023-01-24 12:01:19,557 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '96',
+ 'link': 'https://www.skidrowreloaded.com/surviving-the-abyss-v0-1-4-3/',
+ 'name': 'Surviving the Abyss v0.1.4.3'}
+2023-01-24 12:01:19,558 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '97',
+ 'link': 'https://www.skidrowreloaded.com/retrowave-build-10376251/',
+ 'name': 'Retrowave Build 10376251'}
+2023-01-24 12:01:19,560 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '98',
+ 'link': 'https://www.skidrowreloaded.com/queens-glory-build-6510838/',
+ 'name': 'Queens Glory Build 6510838'}
+2023-01-24 12:01:19,562 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '99',
+ 'link': 'https://www.skidrowreloaded.com/kingdoms-reborn-build-10365821/',
+ 'name': 'Kingdoms Reborn Build 10365821'}
+2023-01-24 12:01:19,564 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '100',
+ 'link': 'https://www.skidrowreloaded.com/goal-the-club-manager-v0-18-19-135/',
+ 'name': 'GOAL The Club Manager v0.18.19.135'}
+2023-01-24 12:01:19,566 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '101',
+ 'link': 'https://www.skidrowreloaded.com/football-tactics-and-glory-build-10233306/',
+ 'name': 'Football Tactics and Glory Build 10233306'}
+2023-01-24 12:01:19,567 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '102',
+ 'link': 'https://www.skidrowreloaded.com/dont-starve-together-v539293/',
+ 'name': 'Dont Starve Together v539293'}
+2023-01-24 12:01:19,569 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '103',
+ 'link': 'https://www.skidrowreloaded.com/auto-age-standoff-build-9123150/',
+ 'name': 'Auto Age Standoff Build 9123150'}
+2023-01-24 12:01:19,571 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '104',
+ 'link': 'https://www.skidrowreloaded.com/armello-build-10109492/',
+ 'name': 'Armello Build 10109492'}
+2023-01-24 12:01:19,573 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '105',
+ 'link': 'https://www.skidrowreloaded.com/supermash-build-6081294/',
+ 'name': 'SuperMash Build 6081294'}
+2023-01-24 12:01:19,574 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '106',
+ 'link': 'https://www.skidrowreloaded.com/lawless-west-build-10377313/',
+ 'name': 'Lawless West Build 10377313'}
+2023-01-24 12:01:19,577 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '107',
+ 'link': 'https://www.skidrowreloaded.com/landlords-super-build-10307679/',
+ 'name': 'Landlords Super Build 10307679'}
+2023-01-24 12:01:19,580 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '108',
+ 'link': 'https://www.skidrowreloaded.com/intravenous-v1-4-0-3/',
+ 'name': 'Intravenous v1.4.0.3'}
+2023-01-24 12:01:19,581 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '109',
+ 'link': 'https://www.skidrowreloaded.com/dream-engines-nomad-cities-v0-11-478/',
+ 'name': 'Dream Engines Nomad Cities v0.11.478'}
+2023-01-24 12:01:19,582 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '110',
+ 'link': 'https://www.skidrowreloaded.com/september-7th-v20230121-p2p/',
+ 'name': 'September 7th v20230121-P2P'}
+2023-01-24 12:01:19,584 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '111',
+ 'link': 'https://www.skidrowreloaded.com/the-secret-ops-tenoke/',
+ 'name': 'The Secret Ops-TENOKE'}
+2023-01-24 12:01:19,585 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '112',
+ 'link': 'https://www.skidrowreloaded.com/dome-keeper-v1-4-1-gog/',
+ 'name': 'Dome Keeper v1.4.1-GOG'}
+2023-01-24 12:01:19,586 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '113',
+ 'link': 'https://www.skidrowreloaded.com/cult-of-the-lamb-build-10370500/',
+ 'name': 'Cult of the Lamb Build 10370500'}
+2023-01-24 12:01:19,587 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '114',
+ 'link': 'https://www.skidrowreloaded.com/baldo-the-guardian-owls-build-10364994/',
+ 'name': 'Baldo the guardian owls Build 10364994'}
+2023-01-24 12:01:19,589 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '115',
+ 'link': 'https://www.skidrowreloaded.com/animus-revenant-build-7355936/',
+ 'name': 'Animus Revenant Build 7355936'}
+2023-01-24 12:01:19,590 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '116',
+ 'link': 'https://www.skidrowreloaded.com/spirit-island-build-9670948/',
+ 'name': 'Spirit Island Build 9670948'}
+2023-01-24 12:01:19,592 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '117',
+ 'link': 'https://www.skidrowreloaded.com/songs-of-syx-v0-63-37/',
+ 'name': 'Songs of Syx v0.63.37'}
+2023-01-24 12:01:19,593 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '118',
+ 'link': 'https://www.skidrowreloaded.com/songs-of-syx-build-10376869/',
+ 'name': 'Songs of Syx Build 10376869'}
+2023-01-24 12:01:19,595 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '119',
+ 'link': 'https://www.skidrowreloaded.com/rogue-ai-simulator-v1-0-3/',
+ 'name': 'Rogue AI Simulator v1.0.3'}
+2023-01-24 12:01:19,596 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '120',
+ 'link': 'https://www.skidrowreloaded.com/robo-oh-build-10241391/',
+ 'name': 'ROBO OH Build 10241391'}
+2023-01-24 12:01:19,598 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '121',
+ 'link': 'https://www.skidrowreloaded.com/robo-instructus-v-1-33/',
+ 'name': 'Robo Instructus v1.33'}
+2023-01-24 12:01:19,599 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '122',
+ 'link': 'https://www.skidrowreloaded.com/rhythm-doctor-build-10352137/',
+ 'name': 'Rhythm Doctor Build 10352137'}
+2023-01-24 12:01:19,600 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '123',
+ 'link': 'https://www.skidrowreloaded.com/retro-gadgets-v0-1-4/',
+ 'name': 'Retro Gadgets v0.1.4'}
+2023-01-24 12:01:19,601 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '124',
+ 'link': 'https://www.skidrowreloaded.com/repit-build-8663695/',
+ 'name': 'Repit Build 8663695'}
+2023-01-24 12:01:19,602 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '125',
+ 'link': 'https://www.skidrowreloaded.com/overboard-build8656389/',
+ 'name': 'Overboard Build 8656389'}
+2023-01-24 12:01:19,603 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '126',
+ 'link': 'https://www.skidrowreloaded.com/noble-fates-v0-27-3-1/',
+ 'name': 'Noble Fates v0.27.3.1'}
+2023-01-24 12:01:19,605 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '127',
+ 'link': 'https://www.skidrowreloaded.com/my-gaming-club-v1-20/',
+ 'name': 'My Gaming Club v1.20'}
+2023-01-24 12:01:19,607 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '128',
+ 'link': 'https://www.skidrowreloaded.com/malmyr-build-7630658/',
+ 'name': 'Malmyr Build 7630658'}
+2023-01-24 12:01:19,609 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '129',
+ 'link': 'https://www.skidrowreloaded.com/makis-adventure-v20230119/',
+ 'name': 'Makis Adventure v20230119'}
+2023-01-24 12:01:19,611 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '130',
+ 'link': 'https://www.skidrowreloaded.com/in-my-shadow-build7897088/',
+ 'name': 'In My Shadow Build 7897088'}
+2023-01-24 12:01:19,612 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '131',
+ 'link': 'https://www.skidrowreloaded.com/farlanders-build-10362582/',
+ 'name': 'Farlanders Build 10362582'}
+2023-01-24 12:01:19,613 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '132',
+ 'link': 'https://www.skidrowreloaded.com/dread-delusion-build-10374618/',
+ 'name': 'Dread Delusion Build 10374618'}
+2023-01-24 12:01:19,615 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '133',
+ 'link': 'https://www.skidrowreloaded.com/despots-game-build-10365888/',
+ 'name': 'Despots Game Build 10365888'}
+2023-01-24 12:01:19,616 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '134',
+ 'link': 'https://www.skidrowreloaded.com/despots-game-dystopian-army-builder-v1-3-4/',
+ 'name': 'Despots Game Dystopian Army Builder v1.3.4'}
+2023-01-24 12:01:19,618 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '135',
+ 'link': 'https://www.skidrowreloaded.com/choice-of-magics-build-9828897/',
+ 'name': 'Choice of Magics Build 9828897'}
+2023-01-24 12:01:19,619 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '136',
+ 'link': 'https://www.skidrowreloaded.com/castillo-shattered-mirrors-build-9136198/',
+ 'name': 'CASTILLO Shattered Mirrors Build 9136198'}
+2023-01-24 12:01:19,620 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '137',
+ 'link': 'https://www.skidrowreloaded.com/atrio-the-dark-wild-build-10361202/',
+ 'name': 'Atrio The Dark Wild Build 10361202'}
+2023-01-24 12:01:19,622 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '138',
+ 'link': 'https://www.skidrowreloaded.com/artformer-ancient-stories-v1-1/',
+ 'name': 'ArtFormer Ancient Stories v1.1'}
+2023-01-24 12:01:19,624 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '139',
+ 'link': 'https://www.skidrowreloaded.com/ameagari-no-hanaby-build-7206971/',
+ 'name': 'Ameagari no Hanaby Build 7206971'}
+2023-01-24 12:01:19,625 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '140',
+ 'link': 'https://www.skidrowreloaded.com/path-of-the-midnight-sun-v1-1-p2p/',
+ 'name': 'Path of the Midnight Sun v1.1-P2P'}
+2023-01-24 12:01:19,626 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '141',
+ 'link': 'https://www.skidrowreloaded.com/ready-or-not-v25143-early-access/',
+ 'name': 'Ready or Not v25143 Early Access'}
+2023-01-24 12:01:19,627 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '142',
+ 'link': 'https://www.skidrowreloaded.com/guilty-gear-xrd-rev-2-v20230120-goldberg/',
+ 'name': 'GUILTY GEAR Xrd REV 2 v20230120-GoldBerg'}
+2023-01-24 12:01:19,629 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '143',
+ 'link': 'https://www.skidrowreloaded.com/image-tenoke/',
+ 'name': 'Image-TENOKE'}
+2023-01-24 12:01:19,630 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '144',
+ 'link': 'https://www.skidrowreloaded.com/droid-wars-duel-tenoke/',
+ 'name': 'Droid Wars Duel-TENOKE'}
+2023-01-24 12:01:19,631 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '145',
+ 'link': 'https://www.skidrowreloaded.com/lincoln-green-tenoke/',
+ 'name': 'Lincoln Green-TENOKE'}
+2023-01-24 12:01:19,632 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '146',
+ 'link': 'https://www.skidrowreloaded.com/master-of-magic-remake-v1-06-00/',
+ 'name': 'Master of Magic Remake v1.06.00'}
+2023-01-24 12:01:19,633 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '147',
+ 'link': 'https://www.skidrowreloaded.com/system-shock-enhanced-edition-v1-2-16/',
+ 'name': 'System Shock Enhanced Edition v1.2.16'}
+2023-01-24 12:01:19,634 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '148',
+ 'link': 'https://www.skidrowreloaded.com/rune-classic-v1-10/',
+ 'name': 'Rune Classic v1.10'}
+2023-01-24 12:01:19,636 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '149',
+ 'link': 'https://www.skidrowreloaded.com/zombie-cure-lab-build-10367533/',
+ 'name': 'Zombie Cure Lab Build 10367533'}
+2023-01-24 12:01:19,637 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '150',
+ 'link': 'https://www.skidrowreloaded.com/chained-echoes-v1-05/',
+ 'name': 'Chained Echoes v1.05'}
+2023-01-24 12:01:19,638 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '151',
+ 'link': 'https://www.skidrowreloaded.com/archvale-v-1-3/',
+ 'name': 'Archvale v1.3'}
+2023-01-24 12:01:19,640 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '152',
+ 'link': 'https://www.skidrowreloaded.com/the-legend-of-kyrandia-book-one-v1-1/',
+ 'name': 'The Legend of Kyrandia Book One v1.1'}
+2023-01-24 12:01:19,641 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '153',
+ 'link': 'https://www.skidrowreloaded.com/necrosmith-v-1-3-0-280/',
+ 'name': 'Necrosmith v1.3.0.280'}
+2023-01-24 12:01:19,642 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '154',
+ 'link': 'https://www.skidrowreloaded.com/scp-5k-build-9977712/',
+ 'name': 'SCP 5K Build 9977712'}
+2023-01-24 12:01:19,643 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '155',
+ 'link': 'https://www.skidrowreloaded.com/warhammer-40000-battlesector-v1-02-43/',
+ 'name': 'Warhammer 40000 Battlesector v1.02.43'}
+2023-01-24 12:01:19,645 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '156',
+ 'link': 'https://www.skidrowreloaded.com/alaloth-champions-of-the-four-kingdoms-v20230119-gog/',
+ 'name': 'Alaloth Champions of The Four Kingdoms v20230119-GOG'}
+2023-01-24 12:01:19,646 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '157',
+ 'link': 'https://www.skidrowreloaded.com/xenonauts-2-v20-01-2023/',
+ 'name': 'Xenonauts 2 v20.01.2023'}
+2023-01-24 12:01:19,648 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '158',
+ 'link': 'https://www.skidrowreloaded.com/vendetta-mafia-wars-early-access/',
+ 'name': 'Vendetta Mafia Wars Early Access'}
+2023-01-24 12:01:19,649 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '159',
+ 'link': 'https://www.skidrowreloaded.com/darkest-dungeon-ii-v0-18-42328/',
+ 'name': 'Darkest Dungeon II v0.18.42328'}
+2023-01-24 12:01:19,650 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '160',
+ 'link': 'https://www.skidrowreloaded.com/bugsnax-v2-0-65949/',
+ 'name': 'Bugsnax v2.0.65949'}
+2023-01-24 12:01:19,651 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '161',
+ 'link': 'https://www.skidrowreloaded.com/src-sprint-robot-championship-build-7422159/',
+ 'name': 'SRC Sprint Robot Championship Build 7422159'}
+2023-01-24 12:01:19,653 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '162',
+ 'link': 'https://www.skidrowreloaded.com/insomnis-build-8322432/',
+ 'name': 'Insomnis Build 8322432'}
+2023-01-24 12:01:19,654 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '163',
+ 'link': 'https://www.skidrowreloaded.com/timberborn-v0-3-5-1/',
+ 'name': 'Timberborn v0.3.5.1'}
+2023-01-24 12:01:19,656 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '164',
+ 'link': 'https://www.skidrowreloaded.com/the-multi-medium-repack/',
+ 'name': 'The Multi Medium-Repack'}
+2023-01-24 12:01:19,657 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '165',
+ 'link': 'https://www.skidrowreloaded.com/space-accident-build-10375172/',
+ 'name': 'SPACE ACCIDENT Build 10375172'}
+2023-01-24 12:01:19,659 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '166',
+ 'link': 'https://www.skidrowreloaded.com/the-sims-4-deluxe-edition-v1-94-147-1030-repack/',
+ 'name': 'The Sims 4 Deluxe Edition v1.94.147.1030-Repack'}
+2023-01-24 12:01:19,660 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '167',
+ 'link': 'https://www.skidrowreloaded.com/estencel-repack/',
+ 'name': 'Estencel-Repack'}
+2023-01-24 12:01:19,661 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '168',
+ 'link': 'https://www.skidrowreloaded.com/ai-war-2-v5-534/',
+ 'name': 'AI War 2 v5.534'}
+2023-01-24 12:01:19,662 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '169',
+ 'link': 'https://www.skidrowreloaded.com/the-pioneers-surviving-desolation-build-10375158/',
+ 'name': 'The Pioneers Surviving Desolation Build 10375158'}
+2023-01-24 12:01:19,664 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '170',
+ 'link': 'https://www.skidrowreloaded.com/scp-087-recovered-document-early-access/',
+ 'name': 'SCP 087 Recovered Document Early Access'}
+2023-01-24 12:01:19,665 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '171',
+ 'link': 'https://www.skidrowreloaded.com/risk-of-rain-2-v1-2-4-1/',
+ 'name': 'Risk of Rain 2 v1.2.4.1'}
+2023-01-24 12:01:19,666 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '172',
+ 'link': 'https://www.skidrowreloaded.com/prison-architect-build-9937246/',
+ 'name': 'Prison Architect Build 9937246'}
+2023-01-24 12:01:19,667 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '173',
+ 'link': 'https://www.skidrowreloaded.com/lost-epic-v-1-01-7/',
+ 'name': 'Lost Epic v1.01.7'}
+2023-01-24 12:01:19,668 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '174',
+ 'link': 'https://www.skidrowreloaded.com/loot-river-v-1-1-01/',
+ 'name': 'Loot River v1.1.01'}
+2023-01-24 12:01:19,670 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '175',
+ 'link': 'https://www.skidrowreloaded.com/kingdoms-reborn-v0-106/',
+ 'name': 'Kingdoms Reborn v0.106'}
+2023-01-24 12:01:19,672 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '176',
+ 'link': 'https://www.skidrowreloaded.com/gedonia-v1-2c/',
+ 'name': 'Gedonia v1.2c'}
+2023-01-24 12:01:19,674 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '177',
+ 'link': 'https://www.skidrowreloaded.com/gatekeeper-eclipse-build-10369812/',
+ 'name': 'Gatekeeper Eclipse Build 10369812'}
+2023-01-24 12:01:19,676 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '178',
+ 'link': 'https://www.skidrowreloaded.com/dimension-drive-build7964518/',
+ 'name': 'Dimension Drive Build 7964518'}
+2023-01-24 12:01:19,678 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '179',
+ 'link': 'https://www.skidrowreloaded.com/brok-the-investigator-v1-2-8-gog/',
+ 'name': 'BROK The InvestiGator v1.2.8-GOG'}
+2023-01-24 12:01:19,680 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '180',
+ 'link': 'https://www.skidrowreloaded.com/wtc-relentless-protagonist-build-10308647/',
+ 'name': 'WTC Relentless Protagonist Build 10308647'}
+2023-01-24 12:01:19,683 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '181',
+ 'link': 'https://www.skidrowreloaded.com/vampire-survivors-v1-3-100/',
+ 'name': 'Vampire Survivors v1.3.100'}
+2023-01-24 12:01:19,684 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '182',
+ 'link': 'https://www.skidrowreloaded.com/uno-build-10181864-repack/',
+ 'name': 'UNO Build 10181864-Repack'}
+2023-01-24 12:01:19,686 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '183',
+ 'link': 'https://www.skidrowreloaded.com/tiny-metal-full-metal-rumble-build-7322003/',
+ 'name': 'TINY METAL FULL METAL RUMBLE Build 7322003'}
+2023-01-24 12:01:19,687 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '184',
+ 'link': 'https://www.skidrowreloaded.com/super-cane-magic-zero-build-7603151/',
+ 'name': 'Super Cane Magic ZERO Build 7603151'}
+2023-01-24 12:01:19,689 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '185',
+ 'link': 'https://www.skidrowreloaded.com/kynseed-v1-0-1-9494/',
+ 'name': 'Kynseed v1.0.1.9494'}
+2023-01-24 12:01:19,691 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '186',
+ 'link': 'https://www.skidrowreloaded.com/filthy-animals-heist-simulator-build-10369032/',
+ 'name': 'Filthy Animals Heist Simulator Build 10369032'}
+2023-01-24 12:01:19,692 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '187',
+ 'link': 'https://www.skidrowreloaded.com/dark-quest-board-game-v0-8/',
+ 'name': 'Dark Quest Board Game v0.8'}
+2023-01-24 12:01:19,693 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '188',
+ 'link': 'https://www.skidrowreloaded.com/cult-of-the-lamb-v1-1-3/',
+ 'name': 'Cult of the Lamb v1.1.3'}
+2023-01-24 12:01:19,695 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '189',
+ 'link': 'https://www.skidrowreloaded.com/cant-drive-this-build-6402082/',
+ 'name': 'Cant Drive This Build 6402082'}
+2023-01-24 12:01:19,696 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '190',
+ 'link': 'https://www.skidrowreloaded.com/brick-rigs-build-10358584/',
+ 'name': 'Brick Rigs Build 10358584'}
+2023-01-24 12:01:19,697 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '191',
+ 'link': 'https://www.skidrowreloaded.com/vermitron-build-7165624/',
+ 'name': 'Vermitron Build 7165624'}
+2023-01-24 12:01:19,698 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '192',
+ 'link': 'https://www.skidrowreloaded.com/travellers-rest-v-0-5-4-8/',
+ 'name': 'Travellers Rest v0.5.4.8'}
+2023-01-24 12:01:19,700 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '193',
+ 'link': 'https://www.skidrowreloaded.com/towaga-among-shadowsbuild-7208351/',
+ 'name': 'Towaga Among Shadows Build 7208351'}
+2023-01-24 12:01:19,701 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '194',
+ 'link': 'https://www.skidrowreloaded.com/songs-of-syx-v0-63-34/',
+ 'name': 'Songs of Syx v0.63.34'}
+2023-01-24 12:01:19,702 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '195',
+ 'link': 'https://www.skidrowreloaded.com/software-inc-v1-4-11/',
+ 'name': 'Software Inc v1.4.11'}
+2023-01-24 12:01:19,704 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '196',
+ 'link': 'https://www.skidrowreloaded.com/sneak-in-marble-shooter-game-build-10291083/',
+ 'name': 'Sneak In Marble shooter game Build 10291083'}
+2023-01-24 12:01:19,706 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '197',
+ 'link': 'https://www.skidrowreloaded.com/shotgun-king-the-final-checkmate-v1-37-gog/',
+ 'name': 'Shotgun King The Final Checkmate v1.37-GOG'}
+2023-01-24 12:01:19,707 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '198',
+ 'link': 'https://www.skidrowreloaded.com/power-of-ten-v1-0-8-gog/',
+ 'name': 'Power of Ten v1.0.8-GOG'}
+2023-01-24 12:01:19,709 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '199',
+ 'link': 'https://www.skidrowreloaded.com/people-playground-v1-26-4-2/',
+ 'name': 'People Playground v1.26.4'}
+2023-01-24 12:01:19,710 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '200',
+ 'link': 'https://www.skidrowreloaded.com/ninja-stealth-build-8890041/',
+ 'name': 'Ninja Stealth Build 8890041'}
+2023-01-24 12:01:19,712 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '201',
+ 'link': 'https://www.skidrowreloaded.com/ninja-stealth-3-build-8866191/',
+ 'name': 'Ninja Stealth 3 Build 8866191'}
+2023-01-24 12:01:19,714 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '202',
+ 'link': 'https://www.skidrowreloaded.com/ninja-stealth-2-build-8866090/',
+ 'name': 'Ninja Stealth 2 Build 8866090'}
+2023-01-24 12:01:19,715 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '203',
+ 'link': 'https://www.skidrowreloaded.com/moons-of-ardan-v0-9-4-0/',
+ 'name': 'Moons of Ardan v0.9.4.0'}
+2023-01-24 12:01:19,716 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '204',
+ 'link': 'https://www.skidrowreloaded.com/kungfu-cowboy-build-7163451/',
+ 'name': 'Kungfu Cowboy Build 7163451'}
+2023-01-24 12:01:19,717 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '205',
+ 'link': 'https://www.skidrowreloaded.com/house-sitter-build-5246453/',
+ 'name': 'House Sitter Build 5246453'}
+2023-01-24 12:01:19,718 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '206',
+ 'link': 'https://www.skidrowreloaded.com/haven-park-v1-2-3/',
+ 'name': 'Haven Park v1.2.3'}
+2023-01-24 12:01:19,719 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '207',
+ 'link': 'https://www.skidrowreloaded.com/grey-hack-v0-8-4519a/',
+ 'name': 'Grey Hack v0.8.4519a'}
+2023-01-24 12:01:19,721 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '208',
+ 'link': 'https://www.skidrowreloaded.com/gloomwood-build-10372400/',
+ 'name': 'Gloomwood Build 10372400'}
+2023-01-24 12:01:19,723 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '209',
+ 'link': 'https://www.skidrowreloaded.com/gladium-build-10299469/',
+ 'name': 'GLADIUM Build 10299469'}
+2023-01-24 12:01:19,724 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '210',
+ 'link': 'https://www.skidrowreloaded.com/get-a-grip-chip-build-9130953/',
+ 'name': 'Get A Grip Chip Build 9130953'}
+2023-01-24 12:01:19,725 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '211',
+ 'link': 'https://www.skidrowreloaded.com/flotilla-build7110918/',
+ 'name': 'Flotilla Build 7110918'}
+2023-01-24 12:01:19,726 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '212',
+ 'link': 'https://www.skidrowreloaded.com/dominions-5-warriors-of-the-faith-v5-58/',
+ 'name': 'Dominions 5 Warriors of the Faith v5.58'}
+2023-01-24 12:01:19,728 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '213',
+ 'link': 'https://www.skidrowreloaded.com/carlos-the-taco-build-10022069/',
+ 'name': 'Carlos the Taco Build 10022069'}
+2023-01-24 12:01:19,729 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '214',
+ 'link': 'https://www.skidrowreloaded.com/booth-build-7866578/',
+ 'name': 'Booth Build 7866578'}
+2023-01-24 12:01:19,731 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '215',
+ 'link': 'https://www.skidrowreloaded.com/anodyne-2-return-to-dust-build6194140/',
+ 'name': 'Anodyne 2 Return to Dust Build 6194140'}
+2023-01-24 12:01:19,732 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '216',
+ 'link': 'https://www.skidrowreloaded.com/ancient-planet-build-10349335/',
+ 'name': 'Ancient Planet Build 10349335'}
+2023-01-24 12:01:19,734 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '217',
+ 'link': 'https://www.skidrowreloaded.com/alexeys-winter-night-adventure-build-10373764/',
+ 'name': 'Alexeys Winter Night Adventure Build 10373764'}
+2023-01-24 12:01:19,735 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '218',
+ 'link': 'https://www.skidrowreloaded.com/bram-the-toymaker-tenoke/',
+ 'name': 'Bram The Toymaker-TENOKE'}
+2023-01-24 12:01:19,737 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '219',
+ 'link': 'https://www.skidrowreloaded.com/maiz-tenoke/',
+ 'name': 'Maiz-TENOKE'}
+2023-01-24 12:01:19,739 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '220',
+ 'link': 'https://www.skidrowreloaded.com/seven-spirits-tenoke/',
+ 'name': 'Seven Spirits-TENOKE'}
+2023-01-24 12:01:19,741 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '221',
+ 'link': 'https://www.skidrowreloaded.com/sudden-market-tenoke/',
+ 'name': 'Sudden Market-TENOKE'}
+2023-01-24 12:01:19,743 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '222',
+ 'link': 'https://www.skidrowreloaded.com/isle-of-pan-repack/',
+ 'name': 'Isle Of Pan-Repack'}
+2023-01-24 12:01:19,744 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '223',
+ 'link': 'https://www.skidrowreloaded.com/the-riftbreaker-v1-34675/',
+ 'name': 'The Riftbreaker v1.34675'}
+2023-01-24 12:01:19,746 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '224',
+ 'link': 'https://www.skidrowreloaded.com/the-long-dark-v2-06-106075/',
+ 'name': 'The Long Dark v2.06.106075'}
+2023-01-24 12:01:19,748 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '225',
+ 'link': 'https://www.skidrowreloaded.com/the-dungeon-of-naheulbeuk-the-amulet-of-chaos-v1-5-992/',
+ 'name': 'The Dungeon of Naheulbeuk The Amulet of Chaos v1.5.992'}
+2023-01-24 12:01:19,749 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '226',
+ 'link': 'https://www.skidrowreloaded.com/september-7th-build-10341496/',
+ 'name': 'September 7th Build 10341496'}
+2023-01-24 12:01:19,750 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '227',
+ 'link': 'https://www.skidrowreloaded.com/metal-hellsinger-build-10283987/',
+ 'name': 'Metal Hellsinger Build 10283987'}
+2023-01-24 12:01:19,752 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '228',
+ 'link': 'https://www.skidrowreloaded.com/industria-build-9823374/',
+ 'name': 'INDUSTRIA Build 9823374'}
+2023-01-24 12:01:19,753 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '229',
+ 'link': 'https://www.skidrowreloaded.com/escape-the-backrooms-build-10364467/',
+ 'name': 'Escape the Backrooms Build 10364467'}
+2023-01-24 12:01:19,755 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '230',
+ 'link': 'https://www.skidrowreloaded.com/sailing-era-build-10347061/',
+ 'name': 'Sailing Era Build 10347061'}
+2023-01-24 12:01:19,756 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '231',
+ 'link': 'https://www.skidrowreloaded.com/2032-a-new-threat-repack/',
+ 'name': '2032 A New Threat-Repack'}
+2023-01-24 12:01:19,758 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '232',
+ 'link': 'https://www.skidrowreloaded.com/the-greatest-penguin-heist-of-all-time-build-10315367/',
+ 'name': 'The Greatest Penguin Heist of All Time Build 10315367'}
+2023-01-24 12:01:19,759 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '233',
+ 'link': 'https://www.skidrowreloaded.com/the-bad-kids-v20230120/',
+ 'name': 'The Bad Kids v20230120'}
+2023-01-24 12:01:19,760 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '234',
+ 'link': 'https://www.skidrowreloaded.com/subnautica-below-zero-v19-01-2023/',
+ 'name': 'Subnautica Below Zero v19.01.2023'}
+2023-01-24 12:01:19,761 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '235',
+ 'link': 'https://www.skidrowreloaded.com/sadness-of-valor-repack/',
+ 'name': 'Sadness Of Valor-Repack'}
+2023-01-24 12:01:19,762 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '236',
+ 'link': 'https://www.skidrowreloaded.com/lost-empire-2977-repack/',
+ 'name': 'Lost Empire 2977-Repack'}
+2023-01-24 12:01:19,764 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '237',
+ 'link': 'https://www.skidrowreloaded.com/hellish-quart-v2023-01-20-0/',
+ 'name': 'Hellish Quart v2023.01.20.0'}
+2023-01-24 12:01:19,765 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '238',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-downpour-razor1911/',
+ 'name': 'Rain World Downpour-Razor1911'}
+2023-01-24 12:01:19,766 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '239',
+ 'link': 'https://www.skidrowreloaded.com/rain-world-downpour-gog/',
+ 'name': 'Rain World Downpour-GOG'}
+2023-01-24 12:01:19,767 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '240',
+ 'link': 'https://www.skidrowreloaded.com/the-pioneers-surviving-desolation-early-access/',
+ 'name': 'The Pioneers Surviving Desolation Early Access'}
+2023-01-24 12:01:19,769 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '241',
+ 'link': 'https://www.skidrowreloaded.com/2112td-tower-defense-survival-goldberg/',
+ 'name': '2112TD Tower Defense Survival-GoldBerg'}
+2023-01-24 12:01:19,771 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '242',
+ 'link': 'https://www.skidrowreloaded.com/project-warlock-ii-v0-2-7-78/',
+ 'name': 'Project Warlock II v0.2.7.78'}
+2023-01-24 12:01:19,772 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '243',
+ 'link': 'https://www.skidrowreloaded.com/warm-snow-build-10360564/',
+ 'name': 'Warm Snow Build 10360564'}
+2023-01-24 12:01:19,773 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '244',
+ 'link': 'https://www.skidrowreloaded.com/utopia-colony-build-10363960/',
+ 'name': 'Utopia Colony Build 10363960'}
+2023-01-24 12:01:19,775 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '245',
+ 'link': 'https://www.skidrowreloaded.com/gordian-quest-v1-2-12-gog/',
+ 'name': 'Gordian Quest v1.2.12-GOG'}
+2023-01-24 12:01:19,776 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '246',
+ 'link': 'https://www.skidrowreloaded.com/garbage-build-7254133/',
+ 'name': 'Garbage Build 7254133'}
+2023-01-24 12:01:19,778 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '247',
+ 'link': 'https://www.skidrowreloaded.com/the-legend-of-heroes-trails-from-zero-v1-4-4-dinobytes/',
+ 'name': 'The Legend of Heroes Trails from Zero v1.4.4-DINOByTES'}
+2023-01-24 12:01:19,779 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '248',
+ 'link': 'https://www.skidrowreloaded.com/winter-resort-simulator-season-2-v1-24/',
+ 'name': 'Winter Resort Simulator Season 2 v1.24'}
+2023-01-24 12:01:19,781 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '249',
+ 'link': 'https://www.skidrowreloaded.com/warhammer-40000-gladius-relics-of-war-v1-11-01-00/',
+ 'name': 'Warhammer 40000 Gladius Relics of War v1.11.01.00'}
+2023-01-24 12:01:19,782 Scraped from <200 https://www.skidrowreloaded.com/pc/>
+{'id': '250',
+ 'link': 'https://www.skidrowreloaded.com/tortuga-a-pirates-tale-repack/',
+ 'name': 'Tortuga A Pirates Tale-Repack'}
+2023-01-24 12:01:19,786 Filtered offsite request to 'www.skidrowreloaded.com': <GET https://www.skidrowreloaded.com/pc/?lcp_page1=2#lcp_instance_1>
+2023-01-24 12:01:19,789 Closing spider (finished)
+2023-01-24 12:01:19,790 Stored json feed (250 items) in: /home/sad/PycharmProject/rest/files/skidow.json
+2023-01-24 12:01:19,790 Dumping Scrapy stats:
+{'downloader/request_bytes': 459,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 23054,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 0.791396,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 1, 24, 10, 1, 19, 790170),
+ 'httpcompression/response_bytes': 147394,
+ 'httpcompression/response_count': 2,
+ 'item_scraped_count': 250,
+ 'log_count/DEBUG': 256,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 71106560,
+ 'memusage/startup': 71106560,
+ 'offsite/domains': 1,
+ 'offsite/filtered': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 1, 24, 10, 1, 18, 998774)}
+2023-01-24 12:01:19,791 Spider closed (finished)
